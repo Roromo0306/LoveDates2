@@ -11,8 +11,8 @@ GameObject:
   - component: {fileID: 7899034629316934601}
   - component: {fileID: 1563216910410691729}
   - component: {fileID: 9111369091111618142}
-  - component: {fileID: -4466720603872728093}
   - component: {fileID: 1275105185883063159}
+  - component: {fileID: 3478818010531745091}
   m_Layer: 0
   m_Name: Billete1
   m_TagString: Billete
@@ -114,21 +114,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
---- !u!114 &-4466720603872728093
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1553606408571531617}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 331791633aac67146a4eb95d3d56e47a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  velocCaida: 1
-  amplitud: 0.5
-  frecuencia: 0.5
 --- !u!58 &1275105185883063159
 CircleCollider2D:
   m_ObjectHideFlags: 0
@@ -164,3 +149,18 @@ CircleCollider2D:
   m_Offset: {x: 0, y: 0}
   serializedVersion: 2
   m_Radius: 0.5
+--- !u!114 &3478818010531745091
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1553606408571531617}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b255f24959ddd494c811848eb9c5d75a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  velocCaida: 1
+  amplitud: 0.5
+  frecuencia: 1

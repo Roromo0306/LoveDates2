@@ -213,7 +213,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 262763795}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 19927de77d0d58848a23b2414b04c188, type: 3}
+  m_Script: {fileID: 11500000, guid: 69e028b1212d02b40b3e6b8f6f6ce3fa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   puntuacion: 0
@@ -577,7 +577,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 1036463230}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 12bcdd6e7b66e794faac19622df34206, type: 3}
+  m_Script: {fileID: 11500000, guid: aaff2be5c80562a4c8263a78b9ff24d4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   s1: {fileID: 1938029307}
@@ -615,10 +615,10 @@ MonoBehaviour:
   m_GameObject: {fileID: 1036463230}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a02fbbeab54882a4e85de15f5696e1e3, type: 3}
+  m_Script: {fileID: 11500000, guid: 56bd97c4d512e204baa0a70ac1cc8fc9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  inicioTiempo: 15
+  inicioTiempo: 30
   cuentaText: {fileID: 1634007608}
 --- !u!1 &1246305465
 GameObject:

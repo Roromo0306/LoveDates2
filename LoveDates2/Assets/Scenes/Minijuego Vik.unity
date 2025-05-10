@@ -148,7 +148,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 110619127}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ce214cac1d5c41e419b61e34803f28dc, type: 3}
+  m_Script: {fileID: 11500000, guid: 381be705367819449aac20b48d29e6bf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   enemigo: {fileID: 3785548817366440798, guid: e297d07b3cb402441abc753b0fbb8065, type: 3}
@@ -156,11 +156,11 @@ MonoBehaviour:
   filas: 5
   columnas: 11
   espacio: {x: 1.5, y: 1}
-  inicio: {x: -7.5, y: 7}
+  inicio: {x: -7.5, y: 4}
   velocidad: 2
   descendStep: 0.5
-  tiempoDisparoMin: 0.5
-  tiempoDisparoMax: 1
+  tiempoDisparoMin: 2
+  tiempoDisparoMax: 5
 --- !u!4 &110619129
 Transform:
   m_ObjectHideFlags: 0
@@ -344,7 +344,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 226066135}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 96e5746004ae2d24c913425b4916ab39, type: 3}
+  m_Script: {fileID: 11500000, guid: 9f808746f65fc254c8c50f6948ed6fe6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   puntuacion: 0

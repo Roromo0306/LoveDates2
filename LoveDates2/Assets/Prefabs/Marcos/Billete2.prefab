@@ -123,11 +123,11 @@ MonoBehaviour:
   m_GameObject: {fileID: 7677451085723122021}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 331791633aac67146a4eb95d3d56e47a, type: 3}
+  m_Script: {fileID: 11500000, guid: b255f24959ddd494c811848eb9c5d75a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocCaida: 2
-  amplitud: 0.5
+  velocCaida: 1
+  amplitud: 2
   frecuencia: 1
 --- !u!58 &-533630568835875126
 CircleCollider2D:
