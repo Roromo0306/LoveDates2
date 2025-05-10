@@ -52,7 +52,7 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0f;
         player.enabled = false;
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+     
 
     }
 
