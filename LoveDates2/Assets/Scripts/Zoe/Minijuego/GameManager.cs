@@ -52,7 +52,6 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 0f;
         player.enabled = false;
-     
 
     }
 
