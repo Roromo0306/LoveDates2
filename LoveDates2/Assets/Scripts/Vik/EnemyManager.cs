@@ -10,7 +10,7 @@ public class EnemyManager : MonoBehaviour
     public Vector2 espacio = new Vector2(1.5f, 1.0f);
     public Vector2 inicio = new Vector2(-7.5f, 4f);
 
-    public float velocidad = 2f;
+    public float velocidad = 0.5f;
     public float descendStep = 0.5f;
     private int direccion = 1;
 
@@ -37,12 +37,12 @@ public class EnemyManager : MonoBehaviour
     }
 
    
-    void Update()
+    void FixedUpdate()
     {
         if (enemigos.Count == 0) return;
 
         // Calcular movimiento horizontal
-        Vector3 desplaz = Vector3.right * direccion * velocidad * Time.deltaTime;
+        Vector3 desplaz = Vector3.right * direccion * velocidad * Time.fixedDeltaTime;
         transform.position += desplaz;
 
         // Comprobar límites de pantalla (en unidades de mundo)

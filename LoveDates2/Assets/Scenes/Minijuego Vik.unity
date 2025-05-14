@@ -157,7 +157,7 @@ MonoBehaviour:
   columnas: 11
   espacio: {x: 1.5, y: 1}
   inicio: {x: -7.5, y: 4}
-  velocidad: 2
+  velocidad: 1.5
   descendStep: 0.5
   tiempoDisparoMin: 2
   tiempoDisparoMax: 5
