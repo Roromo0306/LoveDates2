@@ -122,81 +122,6 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &626416848
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 626416849}
-  - component: {fileID: 626416851}
-  - component: {fileID: 626416850}
-  m_Layer: 5
-  m_Name: Image
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!224 &626416849
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626416848}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 16.03, y: 1.36, z: -0.8}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 2146434932}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -440.1}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &626416850
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626416848}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &626416851
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 626416848}
-  m_CullTransparentMesh: 1
 --- !u!1 &825467141
 GameObject:
   m_ObjectHideFlags: 0
@@ -402,7 +327,7 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
---- !u!1 &2146434928
+--- !u!1 &1501371896
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -410,10 +335,266 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2146434932}
-  - component: {fileID: 2146434931}
-  - component: {fileID: 2146434930}
-  - component: {fileID: 2146434929}
+  - component: {fileID: 1501371897}
+  - component: {fileID: 1501371899}
+  - component: {fileID: 1501371898}
+  m_Layer: 5
+  m_Name: Panel
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1501371897
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501371896}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 2079425540}
+  m_Father: {fileID: 2111339906}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 300}
+  m_Pivot: {x: 0.5, y: 0}
+--- !u!114 &1501371898
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501371896}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.23529412}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1501371899
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1501371896}
+  m_CullTransparentMesh: 1
+--- !u!1 &2079425539
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2079425540}
+  - component: {fileID: 2079425542}
+  - component: {fileID: 2079425541}
+  m_Layer: 5
+  m_Name: Text (TMP)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2079425540
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079425539}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1501371897}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: -200, y: -100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2079425541
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079425539}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 50
+  m_fontSizeBase: 50
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &2079425542
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2079425539}
+  m_CullTransparentMesh: 1
+--- !u!1 &2092846477
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2092846479}
+  - component: {fileID: 2092846478}
+  m_Layer: 0
+  m_Name: Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2092846478
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092846477}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8512a8d3c6cb7f440b84079fa77ef0d4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogo: {fileID: 2111339902}
+--- !u!4 &2092846479
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2092846477}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 856.7435, y: 415.2279, z: -12.406947}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2111339901
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2111339906}
+  - component: {fileID: 2111339905}
+  - component: {fileID: 2111339904}
+  - component: {fileID: 2111339903}
+  - component: {fileID: 2111339902}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -421,13 +602,190 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2146434929
+--- !u!114 &2111339902
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2146434928}
+  m_GameObject: {fileID: 2111339901}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1a69382f6f045d145b7d7c6cd95e40da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialgosMarcos:
+  - Con esa ropa desde luego que no mucho jaja.
+  - "Que vaya ropa que me llevas para una cita \xBFno?"
+  - "Claro, para la gente de tu clase. Bueno si\xE9ntate que un libro no se juzga
+    por su portada, supongo jajaja."
+  - "Bueno me llamo Marcos, soy de aqu\xED de la ciudad."
+  - "\xBFDe un pueblo?"
+  - "Pues todo esto ser\xE1 un mundo completamente diferente para t\xED \xBFno?."
+  - "Hombre porque no tendr\xE1 nada que ver la ciudad con el pueblo, yo me aburrir\xEDa
+    mucho en un sitio as\xED."
+  - "\xBFQue no es para tanto? Si quieres ir a comprar a un centro comercial, o a
+    cualquier sitio en general, no puedes, si quieres irte de discoteca, no puedes,
+    \xA1si ni siquiera habr\xE1 electricidad!"
+  - "Ya se ve, \xBFqu\xE9 m\xE1s haces por divertirte en tu pueblo?"
+  - " \xBFVais juntos a montar a caballo?"
+  - "Se nota, si alguna vez quieres ir acompa\xF1ado a montar a caballo, av\xEDsame."
+  - "\xBFY a d\xF3nde sueles viajar?"
+  - "\xBFSolo a la playa? Ah pero ser\xE1n las playas de Grecia o las de Bali \xBFno?.
+    Yo tambi\xE9n he ido alg\xFAn que otro verano."
+  - "\xBFEres pobre? \xBFO eres de esos frikis que se gastan todo su dinero en esas
+    cartas de ese videojuego famoso, el de la rata amarilla?"
+  - "S\xED, ADE."
+  - "S\xED, bueno en realidad fue un curso especial de gesti\xF3n empresarial y de
+    la econom\xEDa de una gran entidad."
+  - "Claro, est\xE1 reservada a gente como yo, no lo entender\xEDas. "
+  - "\xA1Claro! Me ense\xF1a todo lo que tengo que saber sobre c\xF3mo son los procesos
+    de dirigir una empresa. Si no, no podr\xEDa tener el puesto de subdirector en
+    la empresa de mi padre."
+  - "Bueno mi padre me di\xF3 el puesto al contratarme, pero estoy m\xE1s que cualificado
+    gracias al curso que he hecho, adem\xE1s as\xED evitamos que alg\xFAn trabajador
+    se queje, pero estoy super preparado \xA1no lo dudes!"
+  - "Bueno, \xBFt\xFA qu\xE9 has estudiado?"
+  - "\xBFNo? Estudiar es muy importante para formarte bien. \xBFY c\xF3mo ganas dinero?"
+  - "Pues me lo he pasado muy bien y la verdad que me gustas porque no eres un alternativo
+    raro de estos que van a hundir el pa\xEDs. "
+  - "S\xED, claro. Pero una cosa, \xBFnos conocemos?"
+  - "Hmmm pues yo creo que s\xED, porque no suelo olvidar caras. \xBFNo estabas en
+    mi clase del curso que hice en la universidad y me has mentido antes?"
+  - "Es verdad. \xA1Ah, nos vimos en el campamento de empresas de Suiza?"
+  - Dame un momento que estoy pensando.
+  - "\xA1C\xE1llate, no me dejas pensar! Tus facciones faciales son familiares pero
+    lo \xFAnico que me raya es el bigote, \xBFno se ve un poco raro? D\xE9jame tocarlo."
+  - "\xA1Sab\xEDa que era falso! \xA1Ya me acuerdo de t\xED! T\xFA y yo tuvimos una
+    cita en este programa hace mucho tiempo. \xA1Eres el \u201Cveguno\u201D ese!
+    \xA1No te llamas Roberto, eres un farsante!"
+  - "Me da igual, no soporto a los mentirosos, \xA1presentadora! "
+  - "\xA1Este chico es un farsante!"
+  dialgosMarcosPos:
+  - "Pues no, \xBFpara qu\xE9 ir\xEDa yo a un sitio como ese?"
+  - "\xBFMontas a caballo? "
+  - "\xA1Eso habr\xE1 que verlo! Nadie me gana a montar a caballo. Me alegro haber
+    encontrado a una persona con un hobby tan bueno."
+  - "\xA1Ah!"
+  - "Ah, pues no est\xE1 mal tener como objetivo querer imitar ser de mi clase."
+  - "\xBFInfluencer? Vamos que te grabas como no haces nada durante todo el d\xEDa.
+    Ojal\xE1 a m\xED me pagaran por no hacer nada. Aunque es muy buena idea estudiar
+    algo de empresas para montar tu propio negocio, supongo que es la inversi\xF3n
+    de la que hablabas antes."
+  - "Obviamente te lo recomiendo pero creo que no me has o\xEDdo antes, gente como
+    t\xFA no puede acceder a ese curso, es solo para la \xE9lite jajaja."
+  dialgosMarcosNeg:
+  - Pero no son discotecas.
+  - "\xA1\xBFDar un paseo por el campo?! \xBFQu\xE9 eres, un peregrino? Mira yo lo
+    dejo, \xA1presentadora!"
+  - "Yo no aguanto m\xE1s a este aldeano, \xA1quiero cambiar!"
+  - Pues eso es que no trabajas lo suficiente.
+  - Claro.
+  - "\xA1\xBFQu\xE9?! \xA1Repite eso muerto de hambre!"
+  - "\xA1Se acab\xF3! \xA1Presentadora! "
+  - "\xA1Me voy! No pienso pasar ni un minuto m\xE1s con alguien que no tiene ni
+    donde caerse muerto."
+  - "\xBFInfluencer? Vamos que te grabas como no haces nada durante todo el d\xEDa.
+    Ojal\xE1 a m\xED me pagaran por no hacer nada. \xBFY d\xF3nde invertiste tu dinero?"
+  - "\xA1Espera! D\xE9jame adivinarlo, se me da bien. Veamos viendo tu aspecto y
+    como vistes seguro que has invertido en Shaon, la marca de moda r\xE1pida."
+  - "\xBFNo? Pues veamos, viendo que te gusta el campo seguro que eres de esa gente
+    rara que no te gustar\xEDa verlo desaparecer por las minas, as\xED que seguro
+    que has invertido en Greenplace."
+  - "\xBFNo? \xBFD\xF3nde lo has invertido?"
+  - "\xBFHas invertido en un negocio de casino? Sorprendente, eso te puede dar muchos
+    beneficios, sobre todo por la gente que tira todo su dinero ah\xED. No s\xE9
+    c\xF3mo no ven que nunca van a ganar nada jajaja. Me encanta que te aproveches
+    de ellos."
+  - "\xBFEn qu\xE9 parte has invertido? \xBFEn la estructura, en las m\xE1quinas,
+    en general\u2026?"
+  - No te entiendo.
+  - "\xBFEntonces no has invertido en un negocio?"
+  - "Entonces, eres un vago lud\xF3pata. \xA1Presentadora!"
+  - "\xA1Me voy! \xA1No quiero estar con una m\xE1quina de perder dinero que me arruine
+    la reputaci\xF3n y la cartera!"
+  dialgosAlvaro:
+  - "\xBFPerd\xF3n? jaja."
+  - "Bueno, la normal \xBFno? (parece que no ha cambiado nada)."
+  - "S\xED, claro (desde luego que t\xFA tienes portada y ya)."
+  - Yo me llamo Roberto y soy de un pueblo cercano.
+  - "S\xED."
+  - "\xBFPor qu\xE9 lo dices?"
+  - "A ver, tiene sus diferencias con la ciudad pero no es para tanto. Adem\xE1s,
+    la ciudad est\xE1 a media hora en coche."
+  - Hombre, tengo buenos gustos jaja.
+  - Pues salgo con mis amigos por ah-.
+  - No, ellos no tienen tan buen gusto como yo (no me ha dejado ni terminar).
+  - Vale, gracias jaja.
+  - "Yo no suelo viajar mucho, suelo ir en verano a la playa y poco m\xE1s (qu\xE9
+    r\xE1pido ha cambiado de tema)."
+  - "A Chiclana de la Frontera, C\xE1diz."
+  - "Bueno uno intenta vivir bien en un futuro. \xBFY has estudiado algo?"
+  - "\xBFADE? Interesante."
+  - "Nunca hab\xEDa o\xEDdo hablar de ese curso."
+  - "Y \xBFte sirve ese curso para tu trabajo?"
+  - "\xBFSubdirector ya? Eres bastante j\xF3ven, \xBFc\xF3mo lo has hecho?"
+  - No lo dudo.
+  - Yo no he estudiado.
+  - "Gracias, yo tambi\xE9n me lo he pasado bien. \xBFQuieres que vayamos a una bodega
+    donde sirven un vino excelente?"
+  - Yo creo que no.
+  - "No, no, yo no he estudiado una carrera, \xBFte acuerdas?"
+  - "Yo no he estado en Suiza. D\xE9jalo, v\xE1monos ya que se nos va a hacer tarde."
+  - Pe-
+  - "\xA1No, espera!"
+  - "Pe-pero, esc\xFAchame tengo mis motivos."
+  - "Esto\u2026yo\u2026"
+  dialgosAlvaroPos:
+  - 'Jajaja creo que no has estado en un pueblo. '
+  - "Hay electricidad y tiendas para comprar, aunque no est\xE1n las grandes franquicias.
+    Adem\xE1s, no habr\xE1 discotecas pero puedes ir a montar a caballo por el monte."
+  - "S\xED y soy el mejor."
+  - "No, no, nada de eso. Simplemente estoy invirtiendo todos mis ahorros para poder
+    ganar mucho m\xE1s en un futuro. "
+  - "Ya sabes, trabajar m\xE1s duro ahora para descansar en un futuro. Ese es mi
+    objetivo."
+  - "Pues me hice influencer y empec\xE9 a ganar dinero, pero he tenido gente que
+    me ha impulsado y estoy pensando en estudiar algo de empresas para montar un
+    negocio."
+  - "\xBFMe recomiendas lo que has estudiado t\xFA?"
+  - "Entonces har\xE9 ADE, creo que me servir\xE1."
+  - "(Marcos es alguien que se cree superior pero que tiene dinero y le encanta.
+    Deber\xEDa hablarle de eso para gan\xE1rmelo de forma definitiva)."
+  dialgosAlvaroNeg:
+  - "\xBFQue no hay electricidad? Qu\xE9 barbaridades hay que o\xEDr. Claro que hay
+    electricidad, tiendas y fiestas similares a las discotecas."
+  - "\xA1Son mejores que tus discotecas! Y si quieres despejarte puedes irte hasta
+    al campo a darte un paseo."
+  - "Sabes, no todo el mundo tiene dinero infinito para ir a playas ex\xF3ticas."
+  - "\xBFY t\xFA si? "
+  - "Ah, no sab\xEDa que trabajar duro era vivir del dinero de pap\xE1."
+  - "Que eres un ni\xF1ito de pap\xE1 que depende de su dinero."
+  - "Pues me hice influencer y gan\xE9 mucho dinero con ello."
+  - En el c-
+  - Eh, no.
+  - "No, ah\xED tampoco."
+  - En el casino.
+  - "Ah\u2026"
+  - 'En la ruleta de la suerte. '
+  - "Me apost\xE9 mi dinero all\xED, pero pronto lo recuperar\xE9."
+  - "Ser cliente del casino cuenta como invertir en \xE9l, \xBFno crees?"
+  dialgosPresentadora:
+  - "Bueno pues aqu\xED est\xE1 tu incre\xEDble cita. \xA1Pas\xE1roslo bien!"
+  - "\xBFS\xED? \xBFQu\xE9 sucede?"
+  - "\xBFS\xED?"
+  - "\xBFS\xED?"
+  - "\xBFAlg\xFAn problema?"
+  - "Va a tener que acompa\xF1arme."
+  textoDial: {fileID: 2079425541}
+  Panel: {fileID: 1501371896}
+--- !u!114 &2111339903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2111339901}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
@@ -438,22 +796,22 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &2146434930
+--- !u!114 &2111339904
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2146434928}
+  m_GameObject: {fileID: 2111339901}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -461,13 +819,13 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
---- !u!223 &2146434931
+--- !u!223 &2111339905
 Canvas:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2146434928}
+  m_GameObject: {fileID: 2111339901}
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
@@ -484,19 +842,19 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!224 &2146434932
+--- !u!224 &2111339906
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2146434928}
+  m_GameObject: {fileID: 2111339901}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 626416849}
+  - {fileID: 1501371897}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -509,5 +867,6 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1369287834}
-  - {fileID: 2146434932}
   - {fileID: 825467144}
+  - {fileID: 2111339906}
+  - {fileID: 2092846479}
