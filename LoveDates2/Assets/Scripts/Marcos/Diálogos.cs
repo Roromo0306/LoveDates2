@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 using TMPro;
 
 public class Diálogos : MonoBehaviour
@@ -23,9 +24,41 @@ public class Diálogos : MonoBehaviour
     private string[] dialogoAct;
     private bool escribiendo = false;
     private float velocEscrib = 0.05f;
+
+    public Image D1_Pos, D1_Neg;
+    public TextMeshProUGUI D1T_Pos, D1T_Neg;
+    public Button D1_PosB, D1_NegB;
+    [HideInInspector] public bool D1Pos = false, D1Neg = false;
     void Start()
     {
-        
+        D1_Pos.gameObject.SetActive(false);
+        D1_Neg.gameObject.SetActive(false);
+        D1T_Pos.gameObject.SetActive(false);
+        D1T_Neg.gameObject.SetActive(false);
+
+        D1_PosB.onClick.AddListener(() => D1PosB());
+        D1_NegB.onClick.AddListener(() => D1NegB());
+
+    }
+
+    private void D1PosB()
+    {
+        D1Pos = true;
+        D1_Pos.enabled = false;
+        D1_Pos.gameObject.SetActive(false);
+        D1_Neg.gameObject.SetActive(false);
+        D1T_Pos.gameObject.SetActive(false);
+        D1T_Neg.gameObject.SetActive(false);
+    }
+
+    private void D1NegB()
+    {
+        D1Neg = true;
+        D1_Neg.enabled = false;
+        D1_Pos.gameObject.SetActive(false);
+        D1_Neg.gameObject.SetActive(false);
+        D1T_Pos.gameObject.SetActive(false);
+        D1T_Neg.gameObject.SetActive(false);
     }
 
     void Update()
@@ -68,7 +101,7 @@ public class Diálogos : MonoBehaviour
                 dialogoAct = dialgosAlvaroPos;
                 break;
             case Personaje.MarcosNeg:
-                dialogoAct = dialgosMarcosPos;
+                dialogoAct = dialgosMarcosNeg;
                 break;
             case Personaje.AlvaroNeg:
                 dialogoAct = dialgosAlvaroNeg;
@@ -133,5 +166,14 @@ public class Diálogos : MonoBehaviour
     public void FindD()
     {
         Panel.SetActive(false);
+    }
+
+    public void MostrarDecision1()
+    {
+        Panel.SetActive(true);
+        D1_Pos.gameObject.SetActive(true);
+        D1T_Pos.gameObject.SetActive(true);
+        D1_Neg.gameObject.SetActive(true);
+        D1T_Neg.gameObject.SetActive(true);
     }
 }
