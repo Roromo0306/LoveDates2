@@ -25,7 +25,7 @@ public class Manager : MonoBehaviour
         int randomPrefab = Random.Range(1, 3);
         int randomSpawn = Random.Range(1, 10);
 
-        Debug.Log("Random pregab es " + randomPrefab + " y random spawn " + randomSpawn);
+        //Debug.Log("Random pregab es " + randomPrefab + " y random spawn " + randomSpawn);
         if(randomPrefab == 1)
         {
             if(randomSpawn == 1)

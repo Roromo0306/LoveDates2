@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class Diálogos : MonoBehaviour
+public class Diálogos1 : MonoBehaviour
 {
     
     [SerializeField, TextArea(1, 7)] private string[] dialgosMarcos;
@@ -113,7 +113,7 @@ public class Diálogos : MonoBehaviour
         D3T_Neg.gameObject.SetActive(false);
     }
 
-    public static Diálogos Instance;
+    public static Diálogos1 Instance;
     /*private void Awake()
     {
         if (Instance == null)
@@ -267,7 +267,7 @@ public class Diálogos : MonoBehaviour
         D3T_Neg.gameObject.SetActive(true);
     }
 
-    private void OnEnable()
+   /* private void OnEnable()
     {
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
@@ -286,5 +286,5 @@ public class Diálogos : MonoBehaviour
             textoDial = GameObject.Find("Text (TMP)").GetComponent<TextMeshProUGUI>();
             
         }
-    }
+    }*/
 }

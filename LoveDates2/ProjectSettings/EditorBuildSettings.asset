@@ -8,4 +8,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Scenes/Cita Marcos.unity
+    guid: ec5aaefba065a1e4ea891190a75231db
+  - enabled: 1
+    path: Assets/Scenes/Minijuego Marcos.unity
+    guid: 3a0a438cf03b87c40809381104e614a7
+  - enabled: 1
+    path: Assets/Scenes/Cita Marcos Final.unity
+    guid: fc9ebf4ad9496fc4484bf4904f3ce61e
   m_configObjects: {}

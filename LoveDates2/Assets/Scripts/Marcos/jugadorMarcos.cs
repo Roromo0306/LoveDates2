@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class jugadorMarcos : MonoBehaviour
 {
@@ -12,6 +13,7 @@ public class jugadorMarcos : MonoBehaviour
 
     private Vector2 movimiento;
 
+    public static event System.Action OnMinijuegoFinished;
 
     void Start()
     {
@@ -23,10 +25,13 @@ public class jugadorMarcos : MonoBehaviour
     void Update()
     {
         movimiento.x = Input.GetAxis("Horizontal");
-        if(puntuacion == 10)
+        Debug.Log(puntuacion);
+        if(puntuacion >= 10)
         {
             Time.timeScale = 0;
             Debug.Log("Ganaste");
+            //OnMinijuegoFinished?.Invoke();
+            SceneManager.LoadScene("Cita Marcos Final");
         }
     }
 
@@ -45,7 +50,7 @@ public class jugadorMarcos : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Billete2"))
         {
-            puntuacion += 2;
+            puntuacion += 5;
             Destroy(collision.gameObject);
         }
     }

@@ -5,12 +5,12 @@ using UnityEngine.SceneManagement;
 using TMPro;
 
 
-public class ManagerDialogosMarcos : MonoBehaviour
+public class ManagerDialogosMarcos1 : MonoBehaviour
 {
 
-    [SerializeField] private Diálogos dialogo;
+    [SerializeField] private Diálogos1 dialogo;
     public bool c = false;
-    public static ManagerDialogosMarcos Instance;
+    public static ManagerDialogosMarcos1 Instance;
 
     /*private void Awake()
     {
@@ -31,7 +31,7 @@ public class ManagerDialogosMarcos : MonoBehaviour
     {
         //Acto 1
        
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Presentadora, 0);
+            /*dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Presentadora, 0);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
             dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 0);
@@ -43,47 +43,47 @@ public class ManagerDialogosMarcos : MonoBehaviour
 
         
         //yield return StartCoroutine(Minijuego("Minijuego Marcos"));
-        SceneManager.LoadScene("Minijuego Marcos");
+        SceneManager.LoadScene("Minijuego Marcos");*/
         
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 1);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 1);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 1);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 1);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
         
         
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 2);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 2);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 2);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 2);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 3);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 3);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 3);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 3);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 4);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 4);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 4);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 4);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 5);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 5);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 5);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 5);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 6);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 6);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 6);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 6);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 7);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 7);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
         
 
@@ -95,38 +95,38 @@ public class ManagerDialogosMarcos : MonoBehaviour
         //Decisión buena
         if (dialogo.D1Pos)
         {
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosPos, 0);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosPos, 0);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroPos, 1);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroPos, 1);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosPos, 1);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosPos, 1);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroPos, 2);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroPos, 2);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosPos, 2);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosPos, 2);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
         }
 
         //Decisión mala
         if(dialogo.D1Neg)
         {
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 0);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 0);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroNeg, 1);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroNeg, 1);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 1);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 1);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Presentadora, 1);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Presentadora, 1);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 2);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 2);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
             
             yield break;
@@ -136,40 +136,40 @@ public class ManagerDialogosMarcos : MonoBehaviour
         
 
         //Acto 2
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 7);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 7);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 8);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 8);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 8);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 8);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 9);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 9);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 9);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 9);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 10);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 10);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 10);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 10);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 11);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 11);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 11);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 11);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 12);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 12);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 12);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 12);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 13);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 13);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
         //Segunda decision
@@ -180,44 +180,44 @@ public class ManagerDialogosMarcos : MonoBehaviour
         //Decisión buena
         if (dialogo.D2Pos)
         {
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosPos, 3);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosPos, 3);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroPos, 4);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroPos, 4);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosPos, 4);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosPos, 4);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
         }
 
         //Decisión mala
         if (dialogo.D2Neg)
         {
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 3);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 3);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroNeg, 3);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroNeg, 3);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 4);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 4);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroNeg, 4);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroNeg, 4);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 5);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 5);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroNeg, 5);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroNeg, 5);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 6);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 6);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Presentadora, 2);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Presentadora, 2);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 7);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 7);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
             yield break;
@@ -225,46 +225,46 @@ public class ManagerDialogosMarcos : MonoBehaviour
         }
 
         //Acto 3
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 13);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 13);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 14);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 14);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 14);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 14);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 15);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 15);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 15);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 15);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 16);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 16);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 16);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 16);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 17);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 17);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 17);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 17);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 18);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 18);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 18);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 18);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 19);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 19);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 19);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 19);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 20);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 20);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
         //Tercera decision
@@ -274,19 +274,19 @@ public class ManagerDialogosMarcos : MonoBehaviour
 
         if (dialogo.D3Pos)
         {
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosPos, 5);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosPos, 5);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroPos, 6);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroPos, 6);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosPos, 6);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosPos, 6);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroPos, 7);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroPos, 7);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroPos, 8);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroPos, 8);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
             //Minijuego
@@ -295,61 +295,61 @@ public class ManagerDialogosMarcos : MonoBehaviour
         //Decisión mala
         if (dialogo.D3Neg)
         {
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 8);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 8);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroNeg, 7);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroNeg, 7);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 9);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 9);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroNeg, 8);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroNeg, 8);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 10);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 10);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroNeg, 9);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroNeg, 9);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 11);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 11);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroNeg, 10);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroNeg, 10);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 12);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 12);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroNeg, 11);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroNeg, 11);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 13);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 13);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroNeg, 12);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroNeg, 12);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 14);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 14);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroNeg, 13);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroNeg, 13);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 15);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 15);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.AlvaroNeg, 14);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.AlvaroNeg, 14);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 16);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 16);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Presentadora, 3);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Presentadora, 3);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.MarcosNeg, 17);
+            dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.MarcosNeg, 17);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
             yield break;
@@ -359,61 +359,61 @@ public class ManagerDialogosMarcos : MonoBehaviour
         //Minijuego
 
         //Final
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 21);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 21);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 20);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 20);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 22);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 22);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 21);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 21);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 23);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 23);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 22);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 22);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 24);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 24);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 23);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 23);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 25);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 25);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 24);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 24);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 26);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 26);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 25);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 25);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 27);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 27);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 26);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 26);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 28);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 28);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Presentadora, 4);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Presentadora, 4);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 29);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Marcos, 29);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 27);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Alvaro, 27);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
-        dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Presentadora, 5);
+        dialogo.EmpezarDialogoDesdeIndex(Diálogos1.Personaje.Presentadora, 5);
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
     }
     
