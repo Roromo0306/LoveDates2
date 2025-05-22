@@ -739,6 +739,160 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1181340471
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1181340472}
+  - component: {fileID: 1181340473}
+  m_Layer: 0
+  m_Name: Confundido
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1181340472
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181340471}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1026.6927, y: 562.9703, z: 0.014006853}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1181340473
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1181340471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xBFBolsa de la basura?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "S\xED, \xBFno llevas una?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: Suelo dejarlo todo por el campo la verdad.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8f794568cc8c95c428d5652ffd2e4260, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "Pero solo lo org\xE1nico \xBFno?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "No, todo se hace con la naturaleza y por ende todo vuelve a ella.
+      Eso de que los pl\xE1sticos contaminan es mentira"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xBFC\xF3mo va a ser mentira?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xBFT\xFA te lo crees? Mira te voy a explicar, los plast-"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "He estudiado ambientales y he hecho muchos cursos sobre estas
+      cosas, s\xE9 de lo que hablo."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: No, no lo sabes, es evidente.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xBFY mis estudios me los he inventado?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: No, pero seguro que son de poca calidad. Mira yo te lo explico
+      encantado, todos nos equivocamos.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xBFY el equivocado no podr\xEDas ser t\xFA?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 4ca95e32a62079e4085cd94773933ce0, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Jajajaj \xA1Qu\xE9 graciosa eres!"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: d129894a88d06a84ebe255da1026aca4, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xA1Se acab\xF3! \xA1Presentadora!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xA1Me voy! No pienso estar con alguien que no respeta el medioambiente
+      y se cree que sabe m\xE1s que yo.\r"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: Gameover
 --- !u!1 &1369287831
 GameObject:
   m_ObjectHideFlags: 0
@@ -1004,11 +1158,86 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - characterName: "\xC1lvaro"
-    dialogueText: Olee
+    dialogueText: "\xBFY eso es?"
     characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
     characterPosition: 0
-    voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
     options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: Son refugios de animales.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xBFY para qu\xE9 quieres eso si ya est\xE1n los zool\xF3gicos?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "Para salvar a los animales y darles un bienestar mientras viven
+      pr\xE1cticamente en sus h\xE1bitats."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 9be7275c13ac7744b94363e4700295d6, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Para eso est\xE1n los zool\xF3gicos."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "No, ah\xED no ayudan a los animales como nosotros."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 8f794568cc8c95c428d5652ffd2e4260, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "A ver, los dos les dais de comer, los lav\xE1is y si est\xE1n
+      heridos o enfermos les cur\xE1is, es lo mismo."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "Te estoy diciendo que no, en un refugio tienen m\xE1s libertad."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Para encontrarse con una valla al final del camino. Igualmente,
+      \xBFpor qu\xE9 tanta importancia? Son animales, da igual como vivan."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8f794568cc8c95c428d5652ffd2e4260, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xA1Se acab\xF3! \xA1Presentadora!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xA1Me voy! \xA1No pienso estar con una persona que no respeta
+      a los animales!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: Gameover
 --- !u!4 &1379204726
 Transform:
   m_ObjectHideFlags: 0
@@ -1158,6 +1387,80 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1440472840}
   m_CullTransparentMesh: 1
+--- !u!1 &1442060106
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1442060107}
+  - component: {fileID: 1442060108}
+  m_Layer: 0
+  m_Name: Determinado
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1442060107
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442060106}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1026.6927, y: 562.9703, z: 0.014006853}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1442060108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1442060106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: "\xC1lvaro"
+    dialogueText: Claro, yo suelo llevarla en mi mochila.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "Eso est\xE1 mejor, as\xED no tienes que cargarla en la mano."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Claro, es mucho m\xE1s c\xF3modo."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "(Zoe es una persona que le encanta la naturaleza y los animales,
+      deber\xEDa de seguir ese tema de conversaci\xF3n si no quiero perder su atenci\xF3n)"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: Minijuego Zoe
 --- !u!1 &1472406229
 GameObject:
   m_ObjectHideFlags: 0
@@ -1192,48 +1495,101 @@ MonoBehaviour:
     dialogueText: "\xA1Hola, encantada!"
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
     characterPosition: 1
-    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    voiceClip: {fileID: 8300000, guid: 6910c1e5f8b04d54b886acbea31f2f26, type: 3}
     options: []
+    nextSceneName: 
   - characterName: Roberto
     dialogueText: "\xA1Igualmente!"
     characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
     characterPosition: 0
-    voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    voiceClip: {fileID: 8300000, guid: 6910c1e5f8b04d54b886acbea31f2f26, type: 3}
     options: []
+    nextSceneName: 
   - characterName: Zoe
     dialogueText: "\xBFC\xF3mo est\xE1s?"
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
     characterPosition: 1
     voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
     options: []
+    nextSceneName: 
   - characterName: Roberto
     dialogueText: "Bien, emocionado por estar aqu\xED. Yo soy Roberto, encantado."
     characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
     characterPosition: 0
     voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
     options: []
+    nextSceneName: 
   - characterName: Zoe
     dialogueText: "Yo soy Zoe, mucho gusto. Bueno cu\xE9ntame algo sobre t\xED."
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
     characterPosition: 1
-    voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    voiceClip: {fileID: 0}
     options: []
+    nextSceneName: 
   - characterName: "\xC1lvaro"
     dialogueText: "Pues yo soy de un pueblo de aqu\xED cerca y trabajo de influencer"
     characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
     characterPosition: 0
-    voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    voiceClip: {fileID: 0}
     options: []
+    nextSceneName: 
   - characterName: Zoe
     dialogueText: "\xBFInfluencer?"
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
     characterPosition: 1
     voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "S\xED."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "Curioso, por eso quiz\xE1s me suena tu cara. Y siendo influencer
+      \xBFno tienes pretendientes?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: Eh no, no, pero es que no he conocido a nadie de mi talla sabes
+      jaja.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xBFY en un programa de citas vas a encontrar a alguien de \u201Ctu
+      talla\u201D?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Nunca se sabe, siempre hay que intentarlo. Y bueno, \xBFt\xFA
+      a qu\xE9 te dedicas?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "Yo soy la due\xF1a de Animals For Safe, AFS para los amigos jaja."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
     options:
-    - optionText: Mierdon
+    - optionText: "Claro que s\xED"
       nextDialogue: {fileID: 1601111348}
-    - optionText: Genial
+    - optionText: "\xBFQu\xE9?"
       nextDialogue: {fileID: 1379204725}
+    nextSceneName: 
 --- !u!4 &1472406231
 Transform:
   m_ObjectHideFlags: 0
@@ -1280,11 +1636,72 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dialogueLines:
   - characterName: "\xC1lvaro"
-    dialogueText: Te parece mal?
+    dialogueText: "Perdona mi desconocimiento, pero \xBFeso es lo de los refugios
+      de los animales?"
     characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
     characterPosition: 0
-    voiceClip: {fileID: 8300000, guid: 9be7275c13ac7744b94363e4700295d6, type: 3}
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
     options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xA1S\xED, exacto!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e199f529000ba054394d1585b3198580, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xBFY c\xF3mo funciona tu refugio?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "Pues tenemos varias zonas que imitan el h\xE1bitat de los animales
+      que tratamos. Solemos acoger a animales que est\xE9n mal, enfermos y eso y
+      los ayudamos a recuperarse para despu\xE9s soltarlos de nuevo en sus h\xE1bitat."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xA1Oh! Muy interesante. Y \xBFd\xF3nde est\xE1 tu refugio?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "Tenemos varios para adaptarnos de la manera m\xE1s natural posible
+      a los biomas de nuestras especies. Ahora mismo tenemos refugios en Castell\xF3n
+      de la Plana, Angola, Nueva Zelanda y en las islas Sandwich del Sur. Me gustar\xEDa
+      abrir uno en Tailandia."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e199f529000ba054394d1585b3198580, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Incre\xEDble, esos son muchos refugios en lugares de todo el mundo."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "Bueno, vamos poco a poco, mucha gente nos ha ayudado con la financiaci\xF3n.
+      Tambi\xE9n ayudamos a especies m\xE1s peque\xF1as como hormigas o alacranes."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options:
+    - optionText: Interesado
+      nextDialogue: {fileID: 1919280695}
+    - optionText: Retorcido
+      nextDialogue: {fileID: 1814808319}
+    nextSceneName: 
 --- !u!4 &1601111349
 Transform:
   m_ObjectHideFlags: 0
@@ -1295,6 +1712,313 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 194.60004, y: 47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1814808318
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1814808320}
+  - component: {fileID: 1814808319}
+  m_Layer: 0
+  m_Name: Retorcido
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1814808319
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814808318}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xA1Me encantan las hormigas! Yo jugaba con ellas."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xBFJugabas con ellas? \xBFC\xF3mo se juega con una hormiga? \xBFLas
+      ten\xEDas de mascota?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Las apuntaba con una lupa y las ve\xEDa correr. Era como crear
+      un apocalipsis en miniatura."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8f794568cc8c95c428d5652ffd2e4260, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xBFQu\xE9?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 4ca95e32a62079e4085cd94773933ce0, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Venga, no me digas que nunca has hecho eso cuando eras peque\xF1o."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xA1\xBFNo?!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: Bah, no tuviste infancia entonces.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xA1\xBFPero c\xF3mo te vas a divertir quemando hormigas?!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "No s\xE9, son hormigas, tampoco es para tanto. Deber\xEDas soltarte
+      un poco m\xE1s, se como yo, que s\xE9 divertirme."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8f794568cc8c95c428d5652ffd2e4260, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xA1Se acab\xF3! \xA1Presentadora!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xA1Me voy! \xA1No pienso estar con alguien que no cuida a las
+      hormigas!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: Gameover
+--- !u!4 &1814808320
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1814808318}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1026.6927, y: 562.9703, z: 0.014006853}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1919280694
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1919280696}
+  - component: {fileID: 1919280695}
+  m_Layer: 0
+  m_Name: Interesado
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1919280695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919280694}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xA1Me encantan las hormigas! Me gusta verlas cuando voy por el
+      campo.\r\n"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "Pues en nuestros refugios tenemos colonias de varios tipos de
+      hormigas y adem\xE1s se pueden ver por dentro."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xA1Oh! \xA1Qu\xE9 interesante!"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "Pues s\xED. Has mencionado antes que te gusta ir por el campo,
+      \xBFvas a dar paseos?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "S\xED, algunas veces. Ya sabes, para desconectar un poco de todo.
+      Adem\xE1s, como vivo en un pueblo puedo ir al campo cuando quiera."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "\xA1Qu\xE9 suerte!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "M\xE1s suerte tienes t\xFA, \xBFno? Que trabajas en un entorno
+      natural y con animales."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "Esa es la parte buena, pero al ser la due\xF1a tengo que encargarme
+      de mucho papeleo y ese trabajo es estar todo el rato en la oficina sin salir."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xBFY no te ayuda nadie? Yo contrat\xE9 a alguien para que me
+      llevara mis colaboraciones."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "No, solo estoy yo por ahora, ojal\xE1 alguien me ayudara en un
+      futuro. \xBFColaborabas con muchas marcas siendo influencer?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xA1Claro! \xBFQui\xE9n no querr\xEDa colaborar conmigo?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8f794568cc8c95c428d5652ffd2e4260, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: Jajaja
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: d129894a88d06a84ebe255da1026aca4, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "Volviendo al tema de ir por el campo, \xBFqu\xE9 es lo que m\xE1s
+      te gusta de \xE9l? A m\xED me encanta su tranquilidad y sentarme a la sombra
+      de un \xE1rbol a leer."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "La paz y la tranquilidad es lo mejor, pero yo m\xE1s que leer,
+      me gusta llevarme un peque\xF1o p\xEDcnic."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "Eso tambi\xE9n me encanta."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e199f529000ba054394d1585b3198580, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Lo malo es que vas cargado a la ida pero luego a la vuelta vas
+      con las manos vac\xEDas disfrutando del paseo."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Zoe
+    dialogueText: "Bueno, con las manos vac\xEDas no, la bolsa de la basura la tienes
+      que cargar tambi\xE9n pero lo bueno es que pesa poco."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    options:
+    - optionText: Confundido
+      nextDialogue: {fileID: 1181340473}
+    - optionText: Determinado
+      nextDialogue: {fileID: 1442060108}
+    nextSceneName: 
+--- !u!4 &1919280696
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919280694}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1026.6927, y: 562.9703, z: 0.014006853}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1388,3 +2112,7 @@ SceneRoots:
   - {fileID: 1472406231}
   - {fileID: 1601111349}
   - {fileID: 1379204726}
+  - {fileID: 1814808320}
+  - {fileID: 1919280696}
+  - {fileID: 1442060107}
+  - {fileID: 1181340472}

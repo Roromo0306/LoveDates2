@@ -3,6 +3,7 @@ using UnityEngine.UI;
 using TMPro;
 using System.Collections;
 using System.Collections.Generic;
+using UnityEngine.SceneManagement;
 
 public class DialogueManager : MonoBehaviour
 {
@@ -59,6 +60,16 @@ public class DialogueManager : MonoBehaviour
         {
             Debug.Log("Diálogo terminado");
             // Aquí podrías añadir lógica para finalizar escena o avanzar a otra
+            DialogueLine lastLine = dialogueData.dialogueLines[dialogueData.dialogueLines.Length - 1];
+            if (!string.IsNullOrEmpty(lastLine.nextSceneName))
+            {
+                SceneManager.LoadScene(lastLine.nextSceneName);
+            }
+            else
+            {
+                // Si no hay escena asignada, solo imprime mensaje
+                Debug.Log("No se asignó una nueva escena.");
+            }
         }
     }
 

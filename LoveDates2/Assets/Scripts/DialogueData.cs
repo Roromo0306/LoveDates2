@@ -16,7 +16,9 @@ public class DialogueLine
     public Sprite characterSprite;
     public CharacterPosition characterPosition;
     public AudioClip voiceClip;
-    public List<DialogueOption> options; // Opcional: solo si hay decisiones
+    public List<DialogueOption> options; 
+
+    public string nextSceneName; 
 }
 
 [System.Serializable]

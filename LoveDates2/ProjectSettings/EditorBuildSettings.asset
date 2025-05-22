@@ -17,4 +17,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Cita Marcos Final.unity
     guid: fc9ebf4ad9496fc4484bf4904f3ce61e
+  - enabled: 1
+    path: Assets/Scenes/Minijuego Zoe.unity
+    guid: dc5dd2e054f5f5a45b47ad7fd329f7e4
+  - enabled: 1
+    path: Assets/Scenes/Cita Zoe.unity
+    guid: 328081794f03a6b429f1b0b104928c5b
+  - enabled: 1
+    path: Assets/Scenes/Gameover.unity
+    guid: 4698562171e6fc142891e10d4cd6f9e7
   m_configObjects: {}
