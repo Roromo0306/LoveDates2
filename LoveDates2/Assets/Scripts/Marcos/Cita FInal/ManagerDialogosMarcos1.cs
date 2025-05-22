@@ -12,20 +12,6 @@ public class ManagerDialogosMarcos1 : MonoBehaviour
     public bool c = false;
     public static ManagerDialogosMarcos1 Instance;
 
-    /*private void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject); // Persistente entre escenas
-        }
-        else
-        {
-            Destroy(gameObject); // Evita duplicados
-        }
-    
-    }*/
-
 
     private IEnumerator Start()
     {

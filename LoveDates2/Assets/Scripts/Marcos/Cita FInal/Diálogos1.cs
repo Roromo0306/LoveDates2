@@ -113,19 +113,7 @@ public class Diálogos1 : MonoBehaviour
         D3T_Neg.gameObject.SetActive(false);
     }
 
-    public static Diálogos1 Instance;
-    /*private void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject); // Persistente entre escenas
-        }
-        else
-        {
-            Destroy(gameObject); // Evita duplicados
-        }
-    }*/
+
 
     void Update()
     {

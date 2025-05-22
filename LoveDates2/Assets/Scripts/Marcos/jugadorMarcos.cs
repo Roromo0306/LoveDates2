@@ -25,7 +25,7 @@ public class jugadorMarcos : MonoBehaviour
     void Update()
     {
         movimiento.x = Input.GetAxis("Horizontal");
-        Debug.Log(puntuacion);
+        //Debug.Log(puntuacion);
         if(puntuacion >= 10)
         {
             Time.timeScale = 0;

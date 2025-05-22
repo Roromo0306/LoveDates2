@@ -31,6 +31,8 @@ public class Diálogos : MonoBehaviour
     public TextMeshProUGUI D1T_Pos, D1T_Neg, D2T_Pos, D2T_Neg, D3T_Pos, D3T_Neg;
     public Button D1_PosB, D1_NegB, D2_PosB, D2_NegB, D3_PosB, D3_NegB;
     [HideInInspector] public bool D1Pos = false, D1Neg = false, D2Pos = false, D2Neg = false, D3Pos = false, D3Neg = false;
+
+
     void Start()
     {
         D1_Pos.gameObject.SetActive(false);
@@ -113,19 +115,6 @@ public class Diálogos : MonoBehaviour
         D3T_Neg.gameObject.SetActive(false);
     }
 
-    public static Diálogos Instance;
-    /*private void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject); // Persistente entre escenas
-        }
-        else
-        {
-            Destroy(gameObject); // Evita duplicados
-        }
-    }*/
 
     void Update()
     {

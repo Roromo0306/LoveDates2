@@ -12,21 +12,6 @@ public class ManagerDialogosMarcos : MonoBehaviour
     public bool c = false;
     public static ManagerDialogosMarcos Instance;
 
-    /*private void Awake()
-    {
-        if (Instance == null)
-        {
-            Instance = this;
-            DontDestroyOnLoad(gameObject); // Persistente entre escenas
-        }
-        else
-        {
-            Destroy(gameObject); // Evita duplicados
-        }
-    
-    }*/
-
-
     private IEnumerator Start()
     {
         //Acto 1
@@ -43,9 +28,10 @@ public class ManagerDialogosMarcos : MonoBehaviour
 
         
         //yield return StartCoroutine(Minijuego("Minijuego Marcos"));
+        
         SceneManager.LoadScene("Minijuego Marcos");
         
-            dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 1);
+           /* dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Marcos, 1);
             yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
             dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Alvaro, 1);
@@ -414,38 +400,6 @@ public class ManagerDialogosMarcos : MonoBehaviour
         yield return new WaitUntil(() => !dialogo.IsPanelActive);
 
         dialogo.EmpezarDialogoDesdeIndex(Diálogos.Personaje.Presentadora, 5);
-        yield return new WaitUntil(() => !dialogo.IsPanelActive);
-    }
-    
-
-
-
-    IEnumerator Minijuego(string nombre)
-    {
-        var carga = SceneManager.LoadSceneAsync(nombre, LoadSceneMode.Additive);
-        yield return carga;
-
-        bool terminado = false;
-        System.Action onEnd = () => terminado = true;
-        jugadorMarcos.OnMinijuegoFinished += onEnd;
-
-        yield return new WaitUntil(() => terminado);
-
-        jugadorMarcos.OnMinijuegoFinished -= onEnd;
-
-         Scene escenaPrincipal = SceneManager.GetSceneByName("Cita Marcos");
-         if (escenaPrincipal.IsValid())
-         {
-             SceneManager.SetActiveScene(escenaPrincipal);
-         }
-         else
-         {
-             Debug.Log("Error");
-         }
-
-         var descarga = SceneManager.UnloadSceneAsync(nombre);
-         yield return descarga;
-
-
+        yield return new WaitUntil(() => !dialogo.IsPanelActive);*/
     }
 }
