@@ -2,36 +2,36 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using System.Collections;
+using System.Collections.Generic;
 
 public class DialogueManager : MonoBehaviour
 {
     public DialogueData dialogueData;
-   
-    public TMP_Text nameText;
-    public TMP_Text dialogueText;
-    public float typingSpeed = 0.05f;
+    public TextMeshProUGUI nameText;
+    public TextMeshProUGUI dialogueText;
 
     public Image leftCharacterImage;
     public Image rightCharacterImage;
-
+    public Material defaultMaterial;
     public Material grayscaleMaterial;
-    private Material defaultMaterial;
-
-
-    private int currentLineIndex = 0;
-    private bool isTyping = false;
-    private string currentText = "";
-
 
     public RectTransform leftCharacterRect;
     public RectTransform rightCharacterRect;
+
+    public float raiseAmount = 20f;
+    public float raiseDuration = 0.3f;
+
     private Vector3 leftOriginalPos;
     private Vector3 rightOriginalPos;
 
-    public float raiseAmount = 20f;      // Cuánto se eleva el personaje en píxeles
-    public float raiseDuration = 0.3f;   // Duración de la animación de subida/bajada
+    private int currentLineIndex = 0;
 
-    public AudioSource audioSource;
+    public GameObject optionsPanel;          // Panel donde aparecerán las opciones
+    public GameObject optionButtonPrefab;    // Prefab para instanciar botones de opciones
+
+    public AudioSource audioSource;          // Para reproducir sonidos por línea (opcional)
+
+    private bool isTyping = false;
 
     void Start()
     {
@@ -40,93 +40,62 @@ public class DialogueManager : MonoBehaviour
         rightOriginalPos = rightCharacterRect.anchoredPosition;
 
         StartCoroutine(StartDialogue());
-
     }
 
     IEnumerator StartDialogue()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return null;
         ShowNextLine();
     }
 
-    void ShowNextLine()
+    public void ShowNextLine()
     {
         if (currentLineIndex < dialogueData.dialogueLines.Length)
         {
             DialogueLine line = dialogueData.dialogueLines[currentLineIndex];
-
-            nameText.text = line.characterName;
-            dialogueText.text = "";
-
-            StopAllCoroutines();  // Detener cualquier animación anterior
-
-            if (line.voiceClip != null)
-            {
-                audioSource.Stop();
-                audioSource.clip = line.voiceClip;
-                audioSource.Play();
-            }
-
-            if (line.characterPosition == CharacterPosition.Left)
-            {
-                leftCharacterImage.sprite = line.characterSprite;
-                leftCharacterImage.material = defaultMaterial;
-                rightCharacterImage.material = grayscaleMaterial;
-
-                // Mueve el personaje izquierdo hacia arriba y el derecho vuelve a su posición
-                StartCoroutine(RaiseCharacter(leftCharacterRect, true));
-                StartCoroutine(RaiseCharacter(rightCharacterRect, false));
-            }
-            else
-            {
-                rightCharacterImage.sprite = line.characterSprite;
-                rightCharacterImage.material = defaultMaterial;
-                leftCharacterImage.material = grayscaleMaterial;
-
-                // Mueve el personaje derecho hacia arriba y el izquierdo vuelve a su posición
-                StartCoroutine(RaiseCharacter(rightCharacterRect, true));
-                StartCoroutine(RaiseCharacter(leftCharacterRect, false));
-            }
-
-            StartCoroutine(TypeLine(line.dialogueText));
-            currentLineIndex++;
+            ShowDialogueLine(line);
         }
         else
         {
             Debug.Log("Diálogo terminado");
+            // Aquí podrías añadir lógica para finalizar escena o avanzar a otra
         }
     }
 
-
-    IEnumerator TypeLine(string line)
+    void ShowDialogueLine(DialogueLine line)
     {
-        isTyping = true;
+        nameText.text = line.characterName;
         dialogueText.text = "";
-        currentText = line;
 
-        foreach (char c in line)
+        StopAllCoroutines();
+        StartCoroutine(TypeLine(line.dialogueText));
+
+        // Reproducir sonido (si se asignó)
+        if (audioSource != null && line.voiceClip != null)
         {
-            dialogueText.text += c;
-            yield return new WaitForSeconds(typingSpeed);
+            audioSource.Stop();
+            audioSource.clip = line.voiceClip;
+            audioSource.Play();
         }
 
-        isTyping = false;
-    }
-
-    void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Space))
+        // Cambiar sprite y materiales
+        if (line.characterPosition == CharacterPosition.Left)
         {
-            if (isTyping)
-            {
-                StopAllCoroutines();
-                dialogueText.text = currentText;
-                isTyping = false;
-            }
-            else
-            {
-                ShowNextLine();
-            }
+            leftCharacterImage.sprite = line.characterSprite;
+            leftCharacterImage.material = defaultMaterial;
+            rightCharacterImage.material = grayscaleMaterial;
+
+            StartCoroutine(RaiseCharacter(leftCharacterRect, true));
+            StartCoroutine(RaiseCharacter(rightCharacterRect, false));
+        }
+        else
+        {
+            rightCharacterImage.sprite = line.characterSprite;
+            rightCharacterImage.material = defaultMaterial;
+            leftCharacterImage.material = grayscaleMaterial;
+
+            StartCoroutine(RaiseCharacter(rightCharacterRect, true));
+            StartCoroutine(RaiseCharacter(leftCharacterRect, false));
         }
     }
 
@@ -137,7 +106,7 @@ public class DialogueManager : MonoBehaviour
 
         if (rect == leftCharacterRect)
             targetPos = raise ? leftOriginalPos + Vector3.up * raiseAmount : leftOriginalPos;
-        else // rightCharacterRect
+        else
             targetPos = raise ? rightOriginalPos + Vector3.up * raiseAmount : rightOriginalPos;
 
         float elapsed = 0f;
@@ -148,5 +117,89 @@ public class DialogueManager : MonoBehaviour
             yield return null;
         }
         rect.anchoredPosition = targetPos;
+    }
+
+    IEnumerator TypeLine(string lineText)
+    {
+        isTyping = true;
+        dialogueText.text = "";
+
+        foreach (char letter in lineText.ToCharArray())
+        {
+            dialogueText.text += letter;
+            yield return new WaitForSeconds(0.03f);
+        }
+
+        isTyping = false;
+
+        DialogueLine currentLine = dialogueData.dialogueLines[currentLineIndex];
+
+        if (currentLine.options != null && currentLine.options.Count > 0)
+        {
+            ShowOptions(currentLine.options);
+        }
+        else
+        {
+            currentLineIndex++; // Solo avanzamos automáticamente si no hay opciones
+        }
+    }
+
+    void ShowOptions(List<DialogueOption> options)
+    {
+        if (optionsPanel == null || optionButtonPrefab == null)
+        {
+            Debug.LogError("OptionsPanel o OptionButtonPrefab no están asignados en el Inspector");
+            return;
+        }
+
+        foreach (Transform child in optionsPanel.transform)
+        {
+            Destroy(child.gameObject);
+        }
+
+        foreach (var option in options)
+        {
+            GameObject buttonObj = Instantiate(optionButtonPrefab, optionsPanel.transform);
+            Button button = buttonObj.GetComponent<Button>();
+            TMP_Text buttonText = buttonObj.GetComponentInChildren<TMP_Text>();
+            buttonText.text = option.optionText;
+
+            button.onClick.AddListener(() => OnOptionSelected(option));
+        }
+
+        optionsPanel.SetActive(true);
+    }
+
+    void OnOptionSelected(DialogueOption option)
+    {
+        optionsPanel.SetActive(false);
+
+        if (option.nextDialogue != null)
+        {
+            dialogueData = option.nextDialogue;
+            currentLineIndex = 0;
+            ShowNextLine();
+        }
+        else
+        {
+            currentLineIndex++;
+            ShowNextLine();
+        }
+    }
+
+    public void OnContinue()
+    {
+        if (optionsPanel.activeSelf || isTyping) return;
+        ShowNextLine();
+    }
+
+    void Update()
+    {
+        if (optionsPanel.activeSelf) return;
+
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            OnContinue();
+        }
     }
 }

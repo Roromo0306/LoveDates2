@@ -190,6 +190,108 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &127086947
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 127086948}
+  - component: {fileID: 127086950}
+  - component: {fileID: 127086949}
+  - component: {fileID: 127086951}
+  m_Layer: 5
+  m_Name: ButtonHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &127086948
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127086947}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 935677426}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 256, y: 0}
+  m_SizeDelta: {x: 150, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &127086949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127086947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &127086950
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127086947}
+  m_CullTransparentMesh: 1
+--- !u!114 &127086951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 127086947}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
 --- !u!1 &289937545
 GameObject:
   m_ObjectHideFlags: 0
@@ -431,14 +533,16 @@ MonoBehaviour:
   dialogueData: {fileID: 1472406230}
   nameText: {fileID: 289937548}
   dialogueText: {fileID: 1440472842}
-  typingSpeed: 0.05
   leftCharacterImage: {fileID: 847910163}
   rightCharacterImage: {fileID: 550126837}
+  defaultMaterial: {fileID: 0}
   grayscaleMaterial: {fileID: 2100000, guid: 9dc656fd16e1f4c4cac49ea9de4a6dfc, type: 2}
   leftCharacterRect: {fileID: 847910165}
   rightCharacterRect: {fileID: 550126835}
   raiseAmount: 20
   raiseDuration: 0.3
+  optionsPanel: {fileID: 127086947}
+  optionButtonPrefab: {fileID: 4593362088146765836, guid: 427ac1f075eeb534aa63465759d48f81, type: 3}
   audioSource: {fileID: 1369287835}
 --- !u!4 &685502312
 Transform:
@@ -627,6 +731,7 @@ RectTransform:
   - {fileID: 550126835}
   - {fileID: 847910165}
   - {fileID: 2063863326}
+  - {fileID: 127086948}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -868,6 +973,57 @@ MonoBehaviour:
     m_MipBias: 0
     m_VarianceClampScale: 0.9
     m_ContrastAdaptiveSharpening: 0
+--- !u!1 &1379204724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1379204726}
+  - component: {fileID: 1379204725}
+  m_Layer: 0
+  m_Name: OptionB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1379204725
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379204724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: "\xC1lvaro"
+    dialogueText: Olee
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
+    options: []
+--- !u!4 &1379204726
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379204724}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 194.60004, y: 47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1440472840
 GameObject:
   m_ObjectHideFlags: 0
@@ -1013,7 +1169,7 @@ GameObject:
   - component: {fileID: 1472406231}
   - component: {fileID: 1472406230}
   m_Layer: 0
-  m_Name: DialogueData
+  m_Name: IntroDialogue
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1037,36 +1193,47 @@ MonoBehaviour:
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
     characterPosition: 1
     voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    options: []
   - characterName: Roberto
     dialogueText: "\xA1Igualmente!"
     characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
     characterPosition: 0
     voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    options: []
   - characterName: Zoe
     dialogueText: "\xBFC\xF3mo est\xE1s?"
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
     characterPosition: 1
     voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
   - characterName: Roberto
     dialogueText: "Bien, emocionado por estar aqu\xED. Yo soy Roberto, encantado."
     characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
     characterPosition: 0
     voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    options: []
   - characterName: Zoe
     dialogueText: "Yo soy Zoe, mucho gusto. Bueno cu\xE9ntame algo sobre t\xED."
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
     characterPosition: 1
     voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    options: []
   - characterName: "\xC1lvaro"
     dialogueText: "Pues yo soy de un pueblo de aqu\xED cerca y trabajo de influencer"
     characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
     characterPosition: 0
     voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    options: []
   - characterName: Zoe
     dialogueText: "\xBFInfluencer?"
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
     characterPosition: 1
     voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options:
+    - optionText: Mierdon
+      nextDialogue: {fileID: 1601111348}
+    - optionText: Genial
+      nextDialogue: {fileID: 1379204725}
 --- !u!4 &1472406231
 Transform:
   m_ObjectHideFlags: 0
@@ -1074,6 +1241,57 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1472406229}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 194.60004, y: 47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1601111347
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1601111349}
+  - component: {fileID: 1601111348}
+  m_Layer: 0
+  m_Name: OptionA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1601111348
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601111347}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: "\xC1lvaro"
+    dialogueText: Te parece mal?
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 9be7275c13ac7744b94363e4700295d6, type: 3}
+    options: []
+--- !u!4 &1601111349
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1601111347}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 194.60004, y: 47, z: 0}
@@ -1168,3 +1386,5 @@ SceneRoots:
   - {fileID: 44058529}
   - {fileID: 685502312}
   - {fileID: 1472406231}
+  - {fileID: 1601111349}
+  - {fileID: 1379204726}
