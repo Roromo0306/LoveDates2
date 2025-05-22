@@ -236,7 +236,6 @@ public class Diálogos : MonoBehaviour
     }
      public void FindD()
     {
-        if(Panel != null)
         Panel.SetActive(false);
     }
 
