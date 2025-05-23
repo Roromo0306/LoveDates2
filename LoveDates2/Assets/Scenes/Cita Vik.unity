@@ -122,7 +122,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &1369287831
+--- !u!1 &60775529
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,9 +130,942 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1369287834}
-  - component: {fileID: 1369287833}
-  - component: {fileID: 1369287832}
+  - component: {fileID: 60775531}
+  - component: {fileID: 60775530}
+  m_Layer: 0
+  m_Name: Molesto
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &60775530
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60775529}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: Roberto
+    dialogueText: "Normal si te pones a jugar con el m\xF3vil en una cita."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "No sab\xEDa que eras mi madre"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "A ver, es de sentido com\xFAn que si vas a una cita es de mala
+      educaci\xF3n ponerte con el m\xF3vil y auriculares."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "\xBFSabes lo que es mala educaci\xF3n?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 9be7275c13ac7744b94363e4700295d6, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFEl qu\xE9?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Ver que alguien est\xE1 en mitad de una partida e interrumpirlo."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Pero \xBFpara qu\xE9 has venido aqu\xED? \xBFA jugar o tener una
+      cita?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "\xBFLas dos?\r"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Pues se ve lo que te interesa m\xE1s."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Mira, no eres una persona que respete los juegos as\xED que mejor
+      me voy que podr\xEDa haber terminado una partida en lo que est\xE1 durando
+      esta conversaci\xF3n. "
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Presentadora
+    dialogueText: "\xBFY tu acompa\xF1ante?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Se ha levantado y se ha ido.\r"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: Gameover
+--- !u!4 &60775531
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 60775529}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 194.60004, y: 47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &146256339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 146256341}
+  - component: {fileID: 146256340}
+  m_Layer: 0
+  m_Name: Paciencia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &146256340
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146256339}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: Roberto
+    dialogueText: "\xBFQu\xE9 m\xE1s te gusta hacer adem\xE1s de jugar a Leafe of
+      Legends?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: Jugar a Leafe of Legends mobile.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: Ah bien, buena diversidad de actividades.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8f794568cc8c95c428d5652ffd2e4260, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Pues s\xED, es muy diferente jugar en m\xF3vil que en ordenador."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 4ca95e32a62079e4085cd94773933ce0, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: " Y \xBFsueles hacer algo m\xE1s aparte de jugar?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Ver streamings, me gusta ver c\xF3mo otra gente juega a Leafe
+      of Legends para as\xED aprender sus pr\xE1cticas y ganarles."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFEl juego tiene un modo de clasificaci\xF3n?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "S\xED, empiezas en principiantes y el \xFAltimo nivel es maestros.
+      Me gustar\xEDa poder alcanzar ese nivel alg\xFAn d\xEDa y estar en el top 1000,
+      a muchos les pagan por conseguir llegar ah\xED. Adem\xE1s si restrasmito estando
+      en esos puestos, seguro que ganar\xEDa mucho dinero y seguidores."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Alvaro
+    dialogueText: "Es un buen sue\xF1o, seguro que con pr\xE1ctica lo consigues."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8f794568cc8c95c428d5652ffd2e4260, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Seguro pero pasar\xE1 mucho tiempo hasta que lo consiga y la gente
+      no suele creer en m\xED, me dicen que con eso no llegar\xE9 a nada. Pero yo
+      no les creo, por eso no suelo salir y siempre estoy practicando o viendo v\xEDdeos."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Y entonces, \xBFqu\xE9 haces aqu\xED?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Perd\xED una apuesta y me obligaron a venir. Entre t\xFA y yo
+      tuve que mentir y necesitar la ayuda de alguien para que me dejaran entrar. "
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFY no era m\xE1s f\xE1cil no hacer la apuesta?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "\xA1Yo soy un hombre de palabra!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Eso est\xE1 bien. Y bueno, pero lo de que solo juegas y ves v\xEDdeos
+      no ser\xE1 del todo verdad, tambi\xE9n har\xE1s otras cosas \xBFno?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: A veces voy al Arcade cuando me aburro.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options:
+    - optionText: Amable
+      nextDialogue: {fileID: 0}
+    - optionText: Realista
+      nextDialogue: {fileID: 1226327924}
+    nextSceneName: 
+--- !u!4 &146256341
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 146256339}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1026.6927, y: 562.9703, z: 0.014006853}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &310505767
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 310505768}
+  - component: {fileID: 310505769}
+  - component: {fileID: 310505770}
+  m_Layer: 5
+  m_Name: NombrePersonajes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &310505768
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310505767}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138771423}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 16, y: 11.6}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &310505769
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310505767}
+  m_CullTransparentMesh: 1
+--- !u!114 &310505770
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 310505767}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 8
+  m_fontSizeBase: 8
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 126.46498, w: 38.54581}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &323316048
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 323316050}
+  - component: {fileID: 323316049}
+  m_Layer: 0
+  m_Name: IntroDialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &323316049
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323316048}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: Presentadora
+    dialogueText: "Bueno pues aqu\xED est\xE1 tu incre\xEDble cita. \xA1Pas\xE1roslo
+      bien!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 6910c1e5f8b04d54b886acbea31f2f26, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xA1Hola! Soy Roberto, encantado."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "\u2026"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 6910c1e5f8b04d54b886acbea31f2f26, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: Si tienes un chat importante con alguien puedo volver luego.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "\xBFQu\xE9? Perd\xF3n que con los cascos no te escuchaba."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Que te dec\xEDa que si ten\xEDas un chat importante con alguien
+      que puedo volver luego."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: No, estaba jugando a Leafe of Legends mobile. Puede volver luego
+      que estoy esperando a mi cita.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: Yo soy tu cita.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "\xBFNo eres camarero?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFNo? Si ni tengo el uniforme de camarero."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "\xBFTienen uniforme los camareros?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "S\xED."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Pues no me hab\xEDa dado cuenta."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options:
+    - optionText: Molesto
+      nextDialogue: {fileID: 60775530}
+    - optionText: Dejarlo pasar
+      nextDialogue: {fileID: 2080453079}
+    nextSceneName: 
+--- !u!4 &323316050
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 323316048}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 194.60004, y: 47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &642350018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 642350020}
+  - component: {fileID: 642350019}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &642350019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642350018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 438e103abadf03e41a86a65c722a7bbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueData: {fileID: 323316049}
+  nameText: {fileID: 310505770}
+  dialogueText: {fileID: 716575435}
+  leftCharacterImage: {fileID: 1510550127}
+  rightCharacterImage: {fileID: 1085493475}
+  defaultMaterial: {fileID: 0}
+  grayscaleMaterial: {fileID: 2100000, guid: 9dc656fd16e1f4c4cac49ea9de4a6dfc, type: 2}
+  leftCharacterRect: {fileID: 1510550125}
+  rightCharacterRect: {fileID: 1085493473}
+  raiseAmount: 20
+  raiseDuration: 0.3
+  optionsPanel: {fileID: 1598822262}
+  optionButtonPrefab: {fileID: 4593362088146765836, guid: 427ac1f075eeb534aa63465759d48f81, type: 3}
+  audioSource: {fileID: 978352807}
+--- !u!4 &642350020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 642350018}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &709405818
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 709405820}
+  - component: {fileID: 709405819}
+  m_Layer: 0
+  m_Name: Perder la paciencia
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &709405819
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709405818}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: Roberto
+    dialogueText: "\xBFT\xFA eres normal?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Mido un poco menos que la media pero no lo considerar\xEDa una
+      falta de normalidad."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xA1AAAAAA! \xA1\xBFEs que no sabes mantener una conversaci\xF3n
+      normal?!\r\n"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Teniendo en cuenta que est\xE1s gritando, no considero que sea
+      yo el que no sabe hablar normal. \xBFSabes? Est\xE1s siendo muy desagradable,
+      si tienes un problema de fuera no hace falta que lo pagues conmigo."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Habla la persona que no cuenta nada de su vida y que me ha recibido
+      jugando y con los cascos puestos\u2026"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Te he dicho que me gusta jugar a Leafe of Legends, \xBFno te basta
+      con eso?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xA1Pero cu\xE9ntame algo m\xE1s de tu vida!"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Pues no s\xE9 qu\xE9 quieres que te diga, me gusta tambi\xE9n
+      Leafe of Legends mobile."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFSabes hacer algo m\xE1s aparte de jugar videojuegos?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "\xA1Mira me est\xE1s estresando, no me est\xE1s respetando!"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: Per-
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "\xA1Prima!"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Presentadora
+    dialogueText: "\xA1V\xEDctor Eugenio te he dicho que no me llames as\xED aqu\xED! "
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Perd\xF3n pero es que me quiero ir, me est\xE1 agobiando con tantas
+      preguntas personales."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Presentadora
+    dialogueText: "Hay que ver, \xBFno ves que es viejo? Venga Vik, hay gente que
+      no sabe estar y ya."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: Gameover
+--- !u!4 &709405820
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 709405818}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1026.6927, y: 562.9703, z: 0.014006853}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &716575432
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 716575433}
+  - component: {fileID: 716575434}
+  - component: {fileID: 716575435}
+  m_Layer: 5
+  m_Name: TextoDialogo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &716575433
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716575432}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2138771423}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &716575434
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716575432}
+  m_CullTransparentMesh: 1
+--- !u!114 &716575435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 716575432}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: holaa
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 8
+  m_fontSizeBase: 8
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 18.190208, y: 8.2288685, z: 16.890968, w: 6.0633774}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!1 &978352806
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 978352811}
+  - component: {fileID: 978352810}
+  - component: {fileID: 978352809}
+  - component: {fileID: 978352808}
+  - component: {fileID: 978352807}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -140,21 +1073,161 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1369287832
+--- !u!82 &978352807
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978352806}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &978352808
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 978352806}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!81 &978352809
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369287831}
+  m_GameObject: {fileID: 978352806}
   m_Enabled: 1
---- !u!20 &1369287833
+--- !u!20 &978352810
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369287831}
+  m_GameObject: {fileID: 978352806}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -199,13 +1272,13 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &1369287834
+--- !u!4 &978352811
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369287831}
+  m_GameObject: {fileID: 978352806}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
@@ -214,7 +1287,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1640856460
+--- !u!1 &1085493472
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -222,42 +1295,50 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1640856461}
-  - component: {fileID: 1640856463}
-  - component: {fileID: 1640856462}
+  - component: {fileID: 1085493473}
+  - component: {fileID: 1085493474}
+  - component: {fileID: 1085493475}
   m_Layer: 5
-  m_Name: Image
+  m_Name: Personaje B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1640856461
+--- !u!224 &1085493473
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640856460}
+  m_GameObject: {fileID: 1085493472}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 16.029999, y: 1.36, z: -0.79999995}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3.36, y: 3.36, z: 3.36}
+  m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 1731591225}
+  m_Father: {fileID: 1623069186}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -440.1}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchoredPosition: {x: 361, y: 21.3}
+  m_SizeDelta: {x: 200, y: 250}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1640856462
+--- !u!222 &1085493474
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1085493472}
+  m_CullTransparentMesh: 1
+--- !u!114 &1085493475
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640856460}
+  m_GameObject: {fileID: 1085493472}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
@@ -271,7 +1352,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -281,15 +1362,7 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!222 &1640856463
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1640856460}
-  m_CullTransparentMesh: 1
---- !u!1 &1731591221
+--- !u!1 &1132960976
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -297,10 +1370,502 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1731591225}
-  - component: {fileID: 1731591224}
-  - component: {fileID: 1731591223}
-  - component: {fileID: 1731591222}
+  - component: {fileID: 1132960978}
+  - component: {fileID: 1132960977}
+  m_Layer: 0
+  m_Name: Amable
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1132960977
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132960976}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: Roberto
+    dialogueText: "Pues deber\xEDas salir un poco para descansar."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: Ya salgo, de mi casa al arcade y viceversa.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Yo digo m\xE1s, algo para desconectar de tanta pantalla."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8f794568cc8c95c428d5652ffd2e4260, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Si no est\xE1 relacionado con Leafe of Legends o con los videojuegos
+      no me interesa."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFY si planificas tus estrategias en un cuaderno? \xBFO te compras
+      libros sobre el juego? Seguro que as\xED puedes aprender cosas nuevas."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "No lo hab\xEDa pensado, es buena idea."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "(A Vik le gusta todo lo relacionado con Leafe of Legends y los
+      videojuegos, deber\xEDa sacarle m\xE1s conversaci\xF3n sobre eso para gan\xE1rmelo).
+      \r"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: Minijuego Vik
+--- !u!4 &1132960978
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1132960976}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1026.6927, y: 562.9703, z: 0.014006853}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1193078979
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1193078982}
+  - component: {fileID: 1193078981}
+  - component: {fileID: 1193078980}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1193078980
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193078979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &1193078981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193078979}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &1193078982
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1193078979}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1226327923
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1226327925}
+  - component: {fileID: 1226327924}
+  m_Layer: 0
+  m_Name: Realista
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1226327924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226327923}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: Roberto
+    dialogueText: Vamos que vas de pantalla en pantalla.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "\xBFAlg\xFAn problema?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Ninguno, pero eso te va a sentar mal. M\xEDrame a m\xED, salgo
+      por ah\xED, voy por el campo, hago de todo, quiz\xE1s te puedo ense\xF1ar c\xF3mo
+      desconectar un poco."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "\xBFNo?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFEso ha sido una pregunta?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "No. D\xE9jame en paz, har\xE9 lo que yo quiera, si es malo para
+      m\xED pues ya asumir\xE9 las consecuencias pero no necesito a otro que me diga
+      lo que tengo o no que hacer."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: Solo te doy consejos.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "\xBFQui\xE9n?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFQui\xE9n qu\xE9?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Que \xBFqui\xE9n te los ha pedido?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: Eh...
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Nadie, d\xE9jame en paz y punto, ambos somos mayores y nadie es
+      superior a nadie. \xA1Presentadora!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Presentadora
+    dialogueText: "\xBFS\xED, V\xEDctor Euge- perd\xF3n, Vik? "
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "\xA1Me voy! \xA1Para estar con alguien que se cree mejor que yo
+      prefiero irme a jugar, por lo menos ah\xED aprendo algo!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: Gameover
+--- !u!4 &1226327925
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1226327923}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1026.6927, y: 562.9703, z: 0.014006853}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1510550124
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1510550125}
+  - component: {fileID: 1510550126}
+  - component: {fileID: 1510550127}
+  m_Layer: 5
+  m_Name: Personaje A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1510550125
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510550124}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.36, y: 3.36, z: 3.36}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 1623069186}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -129, y: 21.3}
+  m_SizeDelta: {x: 200, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1510550126
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510550124}
+  m_CullTransparentMesh: 1
+--- !u!114 &1510550127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1510550124}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1598822262
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1598822266}
+  - component: {fileID: 1598822265}
+  - component: {fileID: 1598822264}
+  - component: {fileID: 1598822263}
+  m_Layer: 5
+  m_Name: ButtonHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &1598822263
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598822262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &1598822264
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598822262}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1598822265
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598822262}
+  m_CullTransparentMesh: 1
+--- !u!224 &1598822266
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1598822262}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1623069186}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 256, y: 0}
+  m_SizeDelta: {x: 150, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1623069185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1623069186}
+  - component: {fileID: 1623069189}
+  - component: {fileID: 1623069188}
+  - component: {fileID: 1623069187}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -308,13 +1873,36 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1731591222
+--- !u!224 &1623069186
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1623069185}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1085493473}
+  - {fileID: 1510550125}
+  - {fileID: 2138771423}
+  - {fileID: 1598822266}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &1623069187
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1731591221}
+  m_GameObject: {fileID: 1623069185}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
@@ -325,22 +1913,22 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &1731591223
+--- !u!114 &1623069188
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1731591221}
+  m_GameObject: {fileID: 1623069185}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -348,13 +1936,13 @@ MonoBehaviour:
   m_DefaultSpriteDPI: 96
   m_DynamicPixelsPerUnit: 1
   m_PresetInfoIsWorld: 0
---- !u!223 &1731591224
+--- !u!223 &1623069189
 Canvas:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1731591221}
+  m_GameObject: {fileID: 1623069185}
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
@@ -371,29 +1959,316 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
---- !u!224 &1731591225
+--- !u!1 &2080453078
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2080453080}
+  - component: {fileID: 2080453079}
+  m_Layer: 0
+  m_Name: Dejarlo pasar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2080453079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080453078}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: Roberto
+    dialogueText: "No te preocupes, yo tambi\xE9n vivo en la inopia "
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: Yo no.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e199f529000ba054394d1585b3198580, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Me alegro entonces, \xBFC\xF3mo te llamas?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: Soy Xx_Vik05xX, aunque puedes llamarme Vik.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Pero\u2026\xBFcu\xE1l es tu nombre real?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "\xBFPara qu\xE9 lo quieres saber? Con mi nombre de usuario te
+      deber\xEDa bastar."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e199f529000ba054394d1585b3198580, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: Porque nos estamos conociendo y prefiero saber tu nombre real.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: Declinar.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFQu\xE9?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Que declino tu petici\xF3n, \xBFno hablas espa\xF1ol? \xBFO es
+      que eres tan viejo que no te has adaptado a las nuevas jergas?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFPresentadora?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Presentadora
+    dialogueText: "\xBFS\xED?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFPuedo saber su nombre real?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Presentadora
+    dialogueText: "S\xED, claro,  Mar\xEDa de las Rosas."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFC\xF3mo se va a llamar Mar\xEDa?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Presentadora
+    dialogueText: "\xBFQu\xE9 culpa tengo yo de que mi madre me llamara Mar\xEDa?
+      \xBFEst\xE1 en contra de las Mar\xEDas?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: " \xA1Su nombre no, el de \xE9l!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Presentadora
+    dialogueText: "\xA1Ah! Haberlo dicho. \xC9l se llama V\xEDctor Eugenio Mart\xEDn-Zamorano
+      Garc\xEDa-M\xE1rquez de la Sant\xEDsima Trinidad."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: Mejor te llamo Vik.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: Te lo dije.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Y bueno, \xBFqu\xE9 te gusta hacer?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: Jugar a Leafe of Legends.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Y \xBFqu\xE9 m\xE1s?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "\xBFQu\xE9 m\xE1s qu\xE9?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options:
+    - optionText: Paciencia
+      nextDialogue: {fileID: 146256340}
+    - optionText: Perder la paciencia
+      nextDialogue: {fileID: 709405819}
+    nextSceneName: 
+--- !u!4 &2080453080
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2080453078}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 194.60004, y: 47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2138771422
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2138771423}
+  - component: {fileID: 2138771425}
+  - component: {fileID: 2138771424}
+  m_Layer: 5
+  m_Name: DialogueBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2138771423
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1731591221}
+  m_GameObject: {fileID: 2138771422}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 5.84, y: 5.84, z: 5.84}
+  m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 1640856461}
-  m_Father: {fileID: 0}
+  - {fileID: 310505768}
+  - {fileID: 716575433}
+  m_Father: {fileID: 1623069186}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 178}
+  m_SizeDelta: {x: 170, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &2138771424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138771422}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.554717, g: 0.554717, b: 0.554717, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2138771425
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2138771422}
+  m_CullTransparentMesh: 1
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1369287834}
-  - {fileID: 1731591225}
+  - {fileID: 978352811}
+  - {fileID: 1623069186}
+  - {fileID: 1193078982}
+  - {fileID: 642350020}
+  - {fileID: 323316050}
+  - {fileID: 2080453080}
+  - {fileID: 60775531}
+  - {fileID: 146256341}
+  - {fileID: 709405820}
+  - {fileID: 1132960978}
+  - {fileID: 1226327925}

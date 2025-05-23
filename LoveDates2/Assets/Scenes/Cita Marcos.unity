@@ -122,7 +122,7 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
---- !u!1 &6316391
+--- !u!1 &290583467
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -130,950 +130,51 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 6316392}
-  - component: {fileID: 6316393}
-  - component: {fileID: 6316394}
+  - component: {fileID: 290583468}
+  - component: {fileID: 290583470}
+  - component: {fileID: 290583469}
   m_Layer: 5
-  m_Name: D1T_Pos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &6316392
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6316391}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.12500001, y: 0.745, z: 0.745}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 306078269}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.19250488, y: -17.602966}
-  m_SizeDelta: {x: 782.6086, y: 97.4694}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &6316393
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6316391}
-  m_CullTransparentMesh: 1
---- !u!114 &6316394
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6316391}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: Jajaja creo que no has estado en un pueblo
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &42186889
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 42186890}
-  - component: {fileID: 42186891}
-  - component: {fileID: 42186892}
-  m_Layer: 5
-  m_Name: D3T_Neg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &42186890
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42186889}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.12500001, y: 0.745, z: 0.745}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1727546768}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.19250488, y: 5.587494}
-  m_SizeDelta: {x: 782.6086, y: 97.4694}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &42186891
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42186889}
-  m_CullTransparentMesh: 1
---- !u!114 &42186892
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 42186889}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "Pues me hice influencer y gan\xE9 mucho dinero con ello."
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &206315791
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 206315792}
-  - component: {fileID: 206315793}
-  - component: {fileID: 206315794}
-  m_Layer: 5
-  m_Name: D2T_Neg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &206315792
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 206315791}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.12500001, y: 0.745, z: 0.745}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 603090268}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.19250488, y: 5.587494}
-  m_SizeDelta: {x: 782.6086, y: 97.4694}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &206315793
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 206315791}
-  m_CullTransparentMesh: 1
---- !u!114 &206315794
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 206315791}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "Sabes, no todo el mundo tiene dinero infinito para ir a playas ex\xF3ticas."
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &306078268
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 306078269}
-  - component: {fileID: 306078270}
-  - component: {fileID: 306078272}
-  - component: {fileID: 306078271}
-  m_Layer: 5
-  m_Name: D1_Pos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &306078269
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 306078268}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7.9999995, y: 1.3422818, z: 1.3422818}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 6316392}
-  m_Father: {fileID: 2111339906}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 537.64, y: -155.7}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &306078270
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 306078268}
-  m_CullTransparentMesh: 1
---- !u!114 &306078271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 306078268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 306078272}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &306078272
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 306078268}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!1 &603090267
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 603090268}
-  - component: {fileID: 603090269}
-  - component: {fileID: 603090271}
-  - component: {fileID: 603090270}
-  m_Layer: 5
-  m_Name: D2_Neg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &603090268
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 603090267}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7.9999995, y: 1.3422818, z: 1.3422818}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 206315792}
-  m_Father: {fileID: 2111339906}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 537.64, y: 24.8}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &603090269
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 603090267}
-  m_CullTransparentMesh: 1
---- !u!114 &603090270
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 603090267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 306078272}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &603090271
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 603090267}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!1 &675076390
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 675076391}
-  - component: {fileID: 675076392}
-  - component: {fileID: 675076393}
-  m_Layer: 5
-  m_Name: D2T_Pos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &675076391
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 675076390}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.125, y: 0.745, z: 0.745}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 936930503}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.19250488, y: 9.3124695}
-  m_SizeDelta: {x: 782.6086, y: 97.4694}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &675076392
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 675076390}
-  m_CullTransparentMesh: 1
---- !u!114 &675076393
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 675076390}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "No, no, nada de eso. Simplemente estoy invirtiendo todos mis ahorros para
-    poder ganar mucho m\xE1s en un futuro. "
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &825467141
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 825467144}
-  - component: {fileID: 825467143}
-  - component: {fileID: 825467142}
-  m_Layer: 0
-  m_Name: EventSystem
+  m_Name: DialogueBox
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &825467142
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825467141}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_HorizontalAxis: Horizontal
-  m_VerticalAxis: Vertical
-  m_SubmitButton: Submit
-  m_CancelButton: Cancel
-  m_InputActionsPerSecond: 10
-  m_RepeatDelay: 0.5
-  m_ForceModuleActive: 0
---- !u!114 &825467143
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825467141}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
---- !u!4 &825467144
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 825467141}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &883968003
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 883968004}
-  - component: {fileID: 883968005}
-  - component: {fileID: 883968007}
-  - component: {fileID: 883968006}
-  m_Layer: 5
-  m_Name: D1_Neg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &883968004
+--- !u!224 &290583468
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 883968003}
+  m_GameObject: {fileID: 290583467}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7.9999995, y: 1.3422818, z: 1.3422818}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 5.84, y: 5.84, z: 5.84}
+  m_ConstrainProportionsScale: 1
   m_Children:
-  - {fileID: 929332057}
-  m_Father: {fileID: 2111339906}
+  - {fileID: 2028776007}
+  - {fileID: 1375071725}
+  m_Father: {fileID: 785077458}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 537.64, y: 24.8}
-  m_SizeDelta: {x: 100, y: 100}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 178}
+  m_SizeDelta: {x: 170, y: 40}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &883968005
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 883968003}
-  m_CullTransparentMesh: 1
---- !u!114 &883968006
+--- !u!114 &290583469
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 883968003}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 306078272}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &883968007
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 883968003}
+  m_GameObject: {fileID: 290583467}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0.554717, g: 0.554717, b: 0.554717, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1090,142 +191,15 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!1 &929332056
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 929332057}
-  - component: {fileID: 929332058}
-  - component: {fileID: 929332059}
-  m_Layer: 5
-  m_Name: D1T_Neg
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &929332057
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 929332056}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.12500001, y: 0.745, z: 0.745}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 883968004}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.19250488, y: 5.587494}
-  m_SizeDelta: {x: 782.6086, y: 97.4694}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &929332058
+--- !u!222 &290583470
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 929332056}
+  m_GameObject: {fileID: 290583467}
   m_CullTransparentMesh: 1
---- !u!114 &929332059
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 929332056}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_text: "\xBFQue no hay electricidad? Qu\xE9 barbaridades hay que o\xEDr. Claro
-    que hay electricidad, tiendas y fiestas similares a las discotecas."
-  m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_fontSharedMaterials: []
-  m_fontMaterial: {fileID: 0}
-  m_fontMaterials: []
-  m_fontColor32:
-    serializedVersion: 2
-    rgba: 4278190080
-  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
-  m_enableVertexGradient: 0
-  m_colorMode: 3
-  m_fontColorGradient:
-    topLeft: {r: 1, g: 1, b: 1, a: 1}
-    topRight: {r: 1, g: 1, b: 1, a: 1}
-    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
-    bottomRight: {r: 1, g: 1, b: 1, a: 1}
-  m_fontColorGradientPreset: {fileID: 0}
-  m_spriteAsset: {fileID: 0}
-  m_tintAllSprites: 0
-  m_StyleSheet: {fileID: 0}
-  m_TextStyleHashCode: -1183493901
-  m_overrideHtmlColors: 0
-  m_faceColor:
-    serializedVersion: 2
-    rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
-  m_fontWeight: 400
-  m_enableAutoSizing: 0
-  m_fontSizeMin: 18
-  m_fontSizeMax: 72
-  m_fontStyle: 0
-  m_HorizontalAlignment: 8
-  m_VerticalAlignment: 256
-  m_textAlignment: 65535
-  m_characterSpacing: 0
-  m_wordSpacing: 0
-  m_lineSpacing: 0
-  m_lineSpacingMax: 0
-  m_paragraphSpacing: 0
-  m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
-  m_wordWrappingRatios: 0.4
-  m_overflowMode: 0
-  m_linkedTextComponent: {fileID: 0}
-  parentLinkedComponent: {fileID: 0}
-  m_enableKerning: 1
-  m_enableExtraPadding: 0
-  checkPaddingRequired: 0
-  m_isRichText: 1
-  m_parseCtrlCharacters: 1
-  m_isOrthographic: 1
-  m_isCullingEnabled: 0
-  m_horizontalMapping: 0
-  m_verticalMapping: 0
-  m_uvLineOffset: 0
-  m_geometrySortingOrder: 0
-  m_IsTextObjectScaleStatic: 0
-  m_VertexBufferAutoSizeReduction: 0
-  m_useMaxVisibleDescender: 1
-  m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
-  m_isUsingLegacyAnimationComponent: 0
-  m_isVolumetricText: 0
-  m_hasFontAssetChanged: 0
-  m_baseMaterial: {fileID: 0}
-  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &936930502
+--- !u!1 &519967059
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1233,131 +207,11 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 936930503}
-  - component: {fileID: 936930504}
-  - component: {fileID: 936930506}
-  - component: {fileID: 936930505}
-  m_Layer: 5
-  m_Name: D2_Pos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &936930503
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 936930502}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 8, y: 1.3422818, z: 1.3422818}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 675076391}
-  m_Father: {fileID: 2111339906}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 537.64, y: -155.7}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &936930504
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 936930502}
-  m_CullTransparentMesh: 1
---- !u!114 &936930505
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 936930502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 306078272}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &936930506
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 936930502}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!1 &1369287831
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1369287834}
-  - component: {fileID: 1369287833}
-  - component: {fileID: 1369287832}
-  - component: {fileID: 1369287835}
+  - component: {fileID: 519967064}
+  - component: {fileID: 519967063}
+  - component: {fileID: 519967062}
+  - component: {fileID: 519967061}
+  - component: {fileID: 519967060}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -1365,21 +219,161 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &1369287832
+--- !u!82 &519967060
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519967059}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &519967061
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 519967059}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_RenderShadows: 1
+  m_RequiresDepthTextureOption: 2
+  m_RequiresOpaqueTextureOption: 2
+  m_CameraType: 0
+  m_Cameras: []
+  m_RendererIndex: -1
+  m_VolumeLayerMask:
+    serializedVersion: 2
+    m_Bits: 1
+  m_VolumeTrigger: {fileID: 0}
+  m_VolumeFrameworkUpdateModeOption: 2
+  m_RenderPostProcessing: 0
+  m_Antialiasing: 0
+  m_AntialiasingQuality: 2
+  m_StopNaN: 0
+  m_Dithering: 0
+  m_ClearDepth: 1
+  m_AllowXRRendering: 1
+  m_AllowHDROutput: 1
+  m_UseScreenCoordOverride: 0
+  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
+  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
+  m_RequiresDepthTexture: 0
+  m_RequiresColorTexture: 0
+  m_Version: 2
+  m_TaaSettings:
+    m_Quality: 3
+    m_FrameInfluence: 0.1
+    m_JitterScale: 1
+    m_MipBias: 0
+    m_VarianceClampScale: 0.9
+    m_ContrastAdaptiveSharpening: 0
+--- !u!81 &519967062
 AudioListener:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369287831}
+  m_GameObject: {fileID: 519967059}
   m_Enabled: 1
---- !u!20 &1369287833
+--- !u!20 &519967063
 Camera:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369287831}
+  m_GameObject: {fileID: 519967059}
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 1
@@ -1424,13 +418,13 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
---- !u!4 &1369287834
+--- !u!4 &519967064
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369287831}
+  m_GameObject: {fileID: 519967059}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: -10}
@@ -1439,51 +433,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1369287835
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1369287831}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a79441f348de89743a2939f4d699eac1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_RenderShadows: 1
-  m_RequiresDepthTextureOption: 2
-  m_RequiresOpaqueTextureOption: 2
-  m_CameraType: 0
-  m_Cameras: []
-  m_RendererIndex: -1
-  m_VolumeLayerMask:
-    serializedVersion: 2
-    m_Bits: 1
-  m_VolumeTrigger: {fileID: 0}
-  m_VolumeFrameworkUpdateModeOption: 2
-  m_RenderPostProcessing: 0
-  m_Antialiasing: 0
-  m_AntialiasingQuality: 2
-  m_StopNaN: 0
-  m_Dithering: 0
-  m_ClearDepth: 1
-  m_AllowXRRendering: 1
-  m_AllowHDROutput: 1
-  m_UseScreenCoordOverride: 0
-  m_ScreenSizeOverride: {x: 0, y: 0, z: 0, w: 0}
-  m_ScreenCoordScaleBias: {x: 0, y: 0, z: 0, w: 0}
-  m_RequiresDepthTexture: 0
-  m_RequiresColorTexture: 0
-  m_Version: 2
-  m_TaaSettings:
-    m_Quality: 3
-    m_FrameInfluence: 0.1
-    m_JitterScale: 1
-    m_MipBias: 0
-    m_VarianceClampScale: 0.9
-    m_ContrastAdaptiveSharpening: 0
---- !u!1 &1501371896
+--- !u!1 &785077457
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1491,75 +441,172 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1501371897}
-  - component: {fileID: 1501371899}
-  - component: {fileID: 1501371898}
+  - component: {fileID: 785077458}
+  - component: {fileID: 785077461}
+  - component: {fileID: 785077460}
+  - component: {fileID: 785077459}
   m_Layer: 5
-  m_Name: Panel
+  m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &1501371897
+--- !u!224 &785077458
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501371896}
+  m_GameObject: {fileID: 785077457}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1301047473}
+  - {fileID: 862484065}
+  - {fileID: 290583468}
+  - {fileID: 2114207933}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!114 &785077459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785077457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &785077460
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785077457}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &785077461
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 785077457}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!1 &806958600
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 806958603}
+  - component: {fileID: 806958602}
+  - component: {fileID: 806958601}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &806958601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806958600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &806958602
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806958600}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &806958603
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 806958600}
+  serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 2079425540}
-  m_Father: {fileID: 2111339906}
+  m_Children: []
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 300}
-  m_Pivot: {x: 0.5, y: 0}
---- !u!114 &1501371898
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501371896}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0.23529412}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 1
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!222 &1501371899
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1501371896}
-  m_CullTransparentMesh: 1
---- !u!1 &1727546765
+--- !u!1 &862484064
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1567,292 +614,292 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1727546768}
-  - component: {fileID: 1727546767}
-  - component: {fileID: 1727546769}
-  - component: {fileID: 1727546766}
+  - component: {fileID: 862484065}
+  - component: {fileID: 862484066}
+  - component: {fileID: 862484067}
   m_Layer: 5
-  m_Name: D3_Neg
+  m_Name: Personaje A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!114 &1727546766
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1727546765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 306078272}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!222 &1727546767
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1727546765}
-  m_CullTransparentMesh: 1
---- !u!224 &1727546768
+  m_IsActive: 1
+--- !u!224 &862484065
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1727546765}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 7.9999995, y: 1.3422818, z: 1.3422818}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 42186890}
-  m_Father: {fileID: 2111339906}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 537.64, y: 24.8}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &1727546769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1727546765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!1 &1833532477
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1833532478}
-  - component: {fileID: 1833532479}
-  - component: {fileID: 1833532481}
-  - component: {fileID: 1833532480}
-  m_Layer: 5
-  m_Name: D3_Pos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1833532478
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833532477}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 8, y: 1.3422818, z: 1.3422818}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1900601197}
-  m_Father: {fileID: 2111339906}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 537.64, y: -155.7}
-  m_SizeDelta: {x: 100, y: 100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &1833532479
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833532477}
-  m_CullTransparentMesh: 1
---- !u!114 &1833532480
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833532477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Navigation:
-    m_Mode: 3
-    m_WrapAround: 0
-    m_SelectOnUp: {fileID: 0}
-    m_SelectOnDown: {fileID: 0}
-    m_SelectOnLeft: {fileID: 0}
-    m_SelectOnRight: {fileID: 0}
-  m_Transition: 1
-  m_Colors:
-    m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
-    m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
-    m_ColorMultiplier: 1
-    m_FadeDuration: 0.1
-  m_SpriteState:
-    m_HighlightedSprite: {fileID: 0}
-    m_PressedSprite: {fileID: 0}
-    m_SelectedSprite: {fileID: 0}
-    m_DisabledSprite: {fileID: 0}
-  m_AnimationTriggers:
-    m_NormalTrigger: Normal
-    m_HighlightedTrigger: Highlighted
-    m_PressedTrigger: Pressed
-    m_SelectedTrigger: Selected
-    m_DisabledTrigger: Disabled
-  m_Interactable: 1
-  m_TargetGraphic: {fileID: 306078272}
-  m_OnClick:
-    m_PersistentCalls:
-      m_Calls: []
---- !u!114 &1833532481
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1833532477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
-  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
-  m_Maskable: 1
-  m_OnCullStateChanged:
-    m_PersistentCalls:
-      m_Calls: []
-  m_Sprite: {fileID: 0}
-  m_Type: 0
-  m_PreserveAspect: 0
-  m_FillCenter: 1
-  m_FillMethod: 4
-  m_FillAmount: 1
-  m_FillClockwise: 1
-  m_FillOrigin: 0
-  m_UseSpriteMesh: 0
-  m_PixelsPerUnitMultiplier: 1
---- !u!1 &1900601196
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1900601197}
-  - component: {fileID: 1900601198}
-  - component: {fileID: 1900601199}
-  m_Layer: 5
-  m_Name: D3T_Pos
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 0
---- !u!224 &1900601197
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900601196}
+  m_GameObject: {fileID: 862484064}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.125, y: 0.745, z: 0.745}
-  m_ConstrainProportionsScale: 0
+  m_LocalScale: {x: 3.36, y: 3.36, z: 3.36}
+  m_ConstrainProportionsScale: 1
   m_Children: []
-  m_Father: {fileID: 1833532478}
+  m_Father: {fileID: 785077458}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -0.19250488, y: 9.3124695}
-  m_SizeDelta: {x: 782.6086, y: 97.4694}
+  m_AnchoredPosition: {x: -129, y: 21.3}
+  m_SizeDelta: {x: 200, y: 200}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &1900601198
+--- !u!222 &862484066
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900601196}
+  m_GameObject: {fileID: 862484064}
   m_CullTransparentMesh: 1
---- !u!114 &1900601199
+--- !u!114 &862484067
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1900601196}
+  m_GameObject: {fileID: 862484064}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1301047472
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1301047473}
+  - component: {fileID: 1301047474}
+  - component: {fileID: 1301047475}
+  m_Layer: 5
+  m_Name: Personaje B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1301047473
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301047472}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 3.36, y: 3.36, z: 3.36}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 785077458}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 361, y: 21.3}
+  m_SizeDelta: {x: 200, y: 250}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1301047474
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301047472}
+  m_CullTransparentMesh: 1
+--- !u!114 &1301047475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1301047472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1303996881
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1303996883}
+  - component: {fileID: 1303996882}
+  m_Layer: 0
+  m_Name: Respuesta larga
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1303996882
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303996881}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: Roberto
+    dialogueText: "Pues me hice influencer y empec\xE9 a ganar dinero, pero he tenido
+      gente que me ha impulsado y estoy pensando en estudiar algo de empresas para
+      montar un negocio."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xBFInfluencer? Vamos que te grabas como no haces nada durante
+      todo el d\xEDa. Ojal\xE1 a m\xED me pagaran por no hacer nada. "
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFMe recomiendas lo que has estudiado t\xFA?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8f794568cc8c95c428d5652ffd2e4260, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "Obviamente te lo recomiendo pero creo que no me has o\xEDdo antes,
+      gente como t\xFA no puede acceder a ese curso, es solo para la \xE9lite jajaja."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Entonces har\xE9 ADE, creo que me servir\xE1."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "(Marcos es alguien que se cree superior pero que tiene dinero
+      y le encanta. Deber\xEDa hablarle de eso para gan\xE1rmelo de forma definitiva)."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: Minijuego Marcos
+--- !u!4 &1303996883
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1303996881}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1026.6927, y: 562.9703, z: 0.014006853}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1375071724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1375071725}
+  - component: {fileID: 1375071726}
+  - component: {fileID: 1375071727}
+  m_Layer: 5
+  m_Name: TextoDialogo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1375071725
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375071724}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 290583468}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &1375071726
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375071724}
+  m_CullTransparentMesh: 1
+--- !u!114 &1375071727
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375071724}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -1866,8 +913,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "Pues me hice influencer y empec\xE9 a ganar dinero y estoy pensando en
-    estudiar algo de empresas para montar un negocio."
+  m_text: holaa
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1894,14 +940,14 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
-  m_fontSizeBase: 36
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 8
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 256
   m_textAlignment: 65535
   m_characterSpacing: 0
@@ -1930,13 +976,13 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 18.190208, y: 8.2288685, z: 16.890968, w: 6.0633774}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &2079425539
+--- !u!1 &1375372540
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1944,42 +990,862 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2079425540}
-  - component: {fileID: 2079425542}
-  - component: {fileID: 2079425541}
-  m_Layer: 5
-  m_Name: Text (TMP)
+  - component: {fileID: 1375372542}
+  - component: {fileID: 1375372541}
+  m_Layer: 0
+  m_Name: Realista
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &2079425540
-RectTransform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2079425539}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 1501371897}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: -200, y: -100}
-  m_Pivot: {x: 0.5, y: 0.5}
---- !u!114 &2079425541
+--- !u!114 &1375372541
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2079425539}
+  m_GameObject: {fileID: 1375372540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: Roberto
+    dialogueText: "Sabes, no todo el mundo tiene dinero infinito para ir a playas
+      ex\xF3ticas."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: Pues eso es que no trabajas lo suficiente.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFY t\xFA si? "
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: Claro.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Ah, no sab\xEDa que trabajar duro era vivir del dinero de pap\xE1."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xA1\xBFQu\xE9?! \xA1Repite eso muerto de hambre!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Que eres un ni\xF1ito de pap\xE1 que depende de su dinero."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xA1Se acab\xF3! \xA1Presentadora! "
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Presentadora
+    dialogueText: "\xBFS\xED?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xA1Me voy! No pienso pasar ni un minuto m\xE1s con alguien que
+      no tiene ni donde caerse muerto."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: Gameover
+--- !u!4 &1375372542
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1375372540}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1026.6927, y: 562.9703, z: 0.014006853}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1460377843
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1460377845}
+  - component: {fileID: 1460377844}
+  m_Layer: 0
+  m_Name: OptionB
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1460377844
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460377843}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: Roberto
+    dialogueText: "\xBFQue no hay electricidad? Qu\xE9 barbaridades hay que o\xEDr.
+      Claro que hay electricidad, tiendas y fiestas similares a las discotecas."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: Pero no son discotecas.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xA1Son mejores que tus discotecas! Y si quieres despejarte puedes
+      irte hasta al campo a darte un paseo."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xA1\xBFDar un paseo por el campo?! \xBFQu\xE9 eres, un peregrino?
+      Mira yo lo dejo, \xA1presentadora!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 9be7275c13ac7744b94363e4700295d6, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Presentadora
+    dialogueText: "\xBFS\xED? \xBFQu\xE9 sucede?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "Yo no aguanto m\xE1s a este aldeano, \xA1quiero cambiar!"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: Gameover
+--- !u!4 &1460377845
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1460377843}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 194.60004, y: 47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1660527865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1660527867}
+  - component: {fileID: 1660527866}
+  m_Layer: 0
+  m_Name: OptionA
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1660527866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660527865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: Roberto
+    dialogueText: 'Jajaja creo que no has estado en un pueblo. '
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "Pues no, \xBFpara qu\xE9 ir\xEDa yo a un sitio como ese?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e199f529000ba054394d1585b3198580, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Hay electricidad y tiendas para comprar, aunque no est\xE1n las
+      grandes franquicias. Adem\xE1s, no habr\xE1 discotecas pero puedes ir a montar
+      a caballo por el monte."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xBFMontas a caballo? "
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "S\xED y soy el mejor."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xA1Eso habr\xE1 que verlo! Nadie me gana a montar a caballo.
+      Me alegro haber encontrado a una persona con un hobby tan bueno."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e199f529000ba054394d1585b3198580, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: Hombre, tengo buenos gustos jaja.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "Ya se ve, \xBFqu\xE9 m\xE1s haces por divertirte en tu pueblo?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: Pues salgo con mis amigos por ah-
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xBFVais juntos a montar a caballo?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: No, ellos no tienen tan buen gusto como yo (no me ha dejado ni
+      terminar).
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "Se nota, si alguna vez quieres ir acompa\xF1ado a montar a caballo,
+      av\xEDsame."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: Vale, gracias jaja.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xBFY a d\xF3nde sueles viajar?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Yo no suelo viajar mucho, suelo ir en verano a la playa y poco
+      m\xE1s (qu\xE9 r\xE1pido ha cambiado de tema)."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xBFSolo a la playa? Ah pero ser\xE1n las playas de Grecia o las
+      de Bali \xBFno?. Yo tambi\xE9n he ido alg\xFAn que otro verano."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "A Chiclana de la Frontera, C\xE1diz."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xBFEres pobre? \xBFO eres de esos frikis que se gastan todo su
+      dinero en esas cartas de ese videojuego famoso, el de la rata amarilla?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options:
+    - optionText: Ser realista
+      nextDialogue: {fileID: 1375372541}
+    - optionText: Decirle los planes de futuro
+      nextDialogue: {fileID: 2099117491}
+    nextSceneName: 
+--- !u!4 &1660527867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1660527865}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 194.60004, y: 47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1749787034
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1749787036}
+  - component: {fileID: 1749787035}
+  m_Layer: 0
+  m_Name: Respuesta corta
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1749787035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749787034}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: Roberto
+    dialogueText: "Pues me hice influencer y gan\xE9 mucho dinero con ello."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xBFInfluencer? Vamos que te grabas como no haces nada durante
+      todo el d\xEDa. Ojal\xE1 a m\xED me pagaran por no hacer nada. \xBFY d\xF3nde
+      invertiste tu dinero?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: En el c-
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xA1Espera! D\xE9jame adivinarlo, se me da bien. Veamos viendo
+      tu aspecto y como vistes seguro que has invertido en Shaon, la marca de moda
+      r\xE1pida."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: Eh, no.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xBFNo? Pues veamos, viendo que te gusta el campo seguro que eres
+      de esa gente rara que no te gustar\xEDa verlo desaparecer por las minas, as\xED
+      que seguro que has invertido en Greenplace."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "No, ah\xED tampoco."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xBFNo? \xBFD\xF3nde lo has invertido?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: En el casino.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xBFHas invertido en un negocio de casino? Sorprendente, eso te
+      puede dar muchos beneficios, sobre todo por la gente que tira todo su dinero
+      ah\xED. No s\xE9 c\xF3mo no ven que nunca van a ganar nada jajaja. Me encanta
+      que te aproveches de ellos."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Eh\u2026"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xBFEn qu\xE9 parte has invertido? \xBFEn la estructura, en las
+      m\xE1quinas, en general\u2026?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: 'En la ruleta de la suerte. '
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: No te entiendo.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Me apost\xE9 mi dinero all\xED, pero pronto lo recuperar\xE9."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xBFEntonces no has invertido en un negocio?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Ser cliente del casino cuenta como invertir en \xE9l, \xBFno crees?\r"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "Entonces, eres un vago lud\xF3pata. \xA1Presentadora!"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Presentadora
+    dialogueText: "\xBFS\xED?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xA1Me voy! \xA1No quiero estar con una m\xE1quina de perder dinero
+      que me arruine la reputaci\xF3n y la cartera!"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
+    options: []
+    nextSceneName: Gameover
+--- !u!4 &1749787036
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1749787034}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1026.6927, y: 562.9703, z: 0.014006853}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1889215865
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1889215867}
+  - component: {fileID: 1889215866}
+  m_Layer: 0
+  m_Name: IntroDialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1889215866
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889215865}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: Presentadora
+    dialogueText: "Bueno pues aqu\xED est\xE1 tu incre\xEDble cita. \xA1Pas\xE1roslo
+      bien!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 6910c1e5f8b04d54b886acbea31f2f26, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: Con esa ropa desde luego que no mucho jaja.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFPerd\xF3n? jaja."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 6910c1e5f8b04d54b886acbea31f2f26, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "Que vaya ropa que me llevas para una cita \xBFno?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Bueno, la normal \xBFno? (parece que no ha cambiado nada)."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "Claro, para la gente de tu clase. Bueno si\xE9ntate que un libro
+      no se juzga por su portada, supongo jajaja."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "S\xED, claro (desde luego que t\xFA tienes portada y ya)."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "Bueno me llamo Marcos, soy de aqu\xED de la ciudad."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: Yo me llamo Roberto y soy de un pueblo cercano.
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xBFDe un pueblo?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "S\xED."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "Pues todo esto ser\xE1 un mundo completamente diferente para t\xED
+      \xBFno?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFPor qu\xE9 lo dices?"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "Hombre porque no tendr\xE1 nada que ver la ciudad con el pueblo,
+      yo me aburrir\xEDa mucho en un sitio as\xED."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "A ver, tiene sus diferencias con la ciudad pero no es para tanto.
+      Adem\xE1s, la ciudad est\xE1 a media hora en coche."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xBFQue no es para tanto? Si quieres ir a comprar a un centro
+      comercial, o a cualquier sitio en general, no puedes, si quieres irte de discoteca,
+      no puedes, \xA1si ni siquiera habr\xE1 electricidad!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    options:
+    - optionText: Tranquilo
+      nextDialogue: {fileID: 1660527866}
+    - optionText: Alterado
+      nextDialogue: {fileID: 1460377844}
+    nextSceneName: 
+--- !u!4 &1889215867
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1889215865}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 194.60004, y: 47, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1975751410
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1975751412}
+  - component: {fileID: 1975751411}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1975751411
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975751410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 438e103abadf03e41a86a65c722a7bbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueData: {fileID: 1889215866}
+  nameText: {fileID: 2028776009}
+  dialogueText: {fileID: 1375071727}
+  leftCharacterImage: {fileID: 862484067}
+  rightCharacterImage: {fileID: 1301047475}
+  defaultMaterial: {fileID: 0}
+  grayscaleMaterial: {fileID: 2100000, guid: 9dc656fd16e1f4c4cac49ea9de4a6dfc, type: 2}
+  leftCharacterRect: {fileID: 862484065}
+  rightCharacterRect: {fileID: 1301047473}
+  raiseAmount: 20
+  raiseDuration: 0.3
+  optionsPanel: {fileID: 2114207929}
+  optionButtonPrefab: {fileID: 4593362088146765836, guid: 427ac1f075eeb534aa63465759d48f81, type: 3}
+  audioSource: {fileID: 519967060}
+--- !u!4 &1975751412
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1975751410}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2028776006
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2028776007}
+  - component: {fileID: 2028776008}
+  - component: {fileID: 2028776009}
+  m_Layer: 5
+  m_Name: NombrePersonajes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &2028776007
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028776006}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 290583468}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 16, y: 11.6}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!222 &2028776008
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028776006}
+  m_CullTransparentMesh: 1
+--- !u!114 &2028776009
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2028776006}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -2020,8 +1886,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 8
+  m_fontSizeBase: 8
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2056,21 +1922,13 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: 0, y: 0, z: 126.46498, w: 38.54581}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!222 &2079425542
-CanvasRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2079425539}
-  m_CullTransparentMesh: 1
---- !u!1 &2092846477
+--- !u!1 &2099117490
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2078,357 +1936,298 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 2092846479}
-  - component: {fileID: 2092846478}
+  - component: {fileID: 2099117492}
+  - component: {fileID: 2099117491}
   m_Layer: 0
-  m_Name: Manager
-  m_TagString: muere
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &2092846478
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2092846477}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8512a8d3c6cb7f440b84079fa77ef0d4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  dialogo: {fileID: 2111339902}
-  c: 0
---- !u!4 &2092846479
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2092846477}
-  serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 856.7435, y: 415.2279, z: -12.406947}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &2111339901
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 2111339906}
-  - component: {fileID: 2111339905}
-  - component: {fileID: 2111339904}
-  - component: {fileID: 2111339903}
-  - component: {fileID: 2111339902}
-  m_Layer: 5
-  m_Name: Canvas
+  m_Name: Planes de futuro
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &2111339902
+--- !u!114 &2099117491
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2111339901}
+  m_GameObject: {fileID: 2099117490}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1a69382f6f045d145b7d7c6cd95e40da, type: 3}
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  dialgosMarcos:
-  - Con esa ropa desde luego que no mucho jaja.
-  - "Que vaya ropa que me llevas para una cita \xBFno?"
-  - "Claro, para la gente de tu clase. Bueno si\xE9ntate que un libro no se juzga
-    por su portada, supongo jajaja."
-  - "Bueno me llamo Marcos, soy de aqu\xED de la ciudad."
-  - "\xBFDe un pueblo?"
-  - "Pues todo esto ser\xE1 un mundo completamente diferente para t\xED \xBFno?"
-  - "Hombre porque no tendr\xE1 nada que ver la ciudad con el pueblo, yo me aburrir\xEDa
-    mucho en un sitio as\xED."
-  - "\xBFQue no es para tanto? Si quieres ir a comprar a un centro comercial, o a
-    cualquier sitio en general, no puedes, si quieres irte de discoteca, no puedes,
-    \xA1si ni siquiera habr\xE1 electricidad!"
-  - "Ya se ve, \xBFqu\xE9 m\xE1s haces por divertirte en tu pueblo?"
-  - " \xBFVais juntos a montar a caballo?"
-  - "Se nota, si alguna vez quieres ir acompa\xF1ado a montar a caballo, av\xEDsame."
-  - "\xBFY a d\xF3nde sueles viajar?"
-  - "\xBFSolo a la playa? Ah pero ser\xE1n las playas de Grecia o las de Bali \xBFno?.
-    Yo tambi\xE9n he ido alg\xFAn que otro verano."
-  - "\xBFEres pobre? \xBFO eres de esos frikis que se gastan todo su dinero en esas
-    cartas de ese videojuego famoso, el de la rata amarilla?"
-  - "S\xED, ADE."
-  - "S\xED, bueno en realidad fue un curso especial de gesti\xF3n empresarial y de
-    la econom\xEDa de una gran entidad."
-  - "Claro, est\xE1 reservada a gente como yo, no lo entender\xEDas. "
-  - "\xA1Claro! Me ense\xF1a todo lo que tengo que saber sobre c\xF3mo son los procesos
-    de dirigir una empresa. Si no, no podr\xEDa tener el puesto de subdirector en
-    la empresa de mi padre."
-  - "Bueno mi padre me di\xF3 el puesto al contratarme, pero estoy m\xE1s que cualificado
-    gracias al curso que he hecho, adem\xE1s as\xED evitamos que alg\xFAn trabajador
-    se queje, pero estoy super preparado \xA1no lo dudes!"
-  - "Bueno, \xBFt\xFA qu\xE9 has estudiado?"
-  - "\xBFNo? Estudiar es muy importante para formarte bien. \xBFY c\xF3mo ganas dinero?"
-  - "Pues me lo he pasado muy bien y la verdad que me gustas porque no eres un alternativo
-    raro de estos que van a hundir el pa\xEDs. "
-  - "S\xED, claro. Pero una cosa, \xBFnos conocemos?"
-  - "Hmmm pues yo creo que s\xED, porque no suelo olvidar caras. \xBFNo estabas en
-    mi clase del curso que hice en la universidad y me has mentido antes?"
-  - "Es verdad. \xA1Ah, nos vimos en el campamento de empresas de Suiza?"
-  - Dame un momento que estoy pensando.
-  - "\xA1C\xE1llate, no me dejas pensar! Tus facciones faciales son familiares pero
-    lo \xFAnico que me raya es el bigote, \xBFno se ve un poco raro? D\xE9jame tocarlo."
-  - "\xA1Sab\xEDa que era falso! \xA1Ya me acuerdo de t\xED! T\xFA y yo tuvimos una
-    cita en este programa hace mucho tiempo. \xA1Eres el \u201Cveguno\u201D ese!
-    \xA1No te llamas Roberto, eres un farsante!"
-  - "Me da igual, no soporto a los mentirosos, \xA1presentadora! "
-  - "\xA1Este chico es un farsante!"
-  dialgosMarcosPos:
-  - "Pues no, \xBFpara qu\xE9 ir\xEDa yo a un sitio como ese?"
-  - "\xBFMontas a caballo? "
-  - "\xA1Eso habr\xE1 que verlo! Nadie me gana a montar a caballo. Me alegro haber
-    encontrado a una persona con un hobby tan bueno."
-  - "\xA1Ah!"
-  - "Ah, pues no est\xE1 mal tener como objetivo querer imitar ser de mi clase."
-  - "\xBFInfluencer? Vamos que te grabas como no haces nada durante todo el d\xEDa.
-    Ojal\xE1 a m\xED me pagaran por no hacer nada."
-  - "Obviamente te lo recomiendo pero creo que no me has o\xEDdo antes, gente como
-    t\xFA no puede acceder a ese curso, es solo para la \xE9lite jajaja."
-  dialgosMarcosNeg:
-  - Pero no son discotecas.
-  - "\xA1\xBFDar un paseo por el campo?! \xBFQu\xE9 eres, un peregrino? Mira yo lo
-    dejo, \xA1presentadora!"
-  - "Yo no aguanto m\xE1s a este aldeano, \xA1quiero cambiar!"
-  - Pues eso es que no trabajas lo suficiente.
-  - Claro.
-  - "\xA1\xBFQu\xE9?! \xA1Repite eso muerto de hambre!"
-  - "\xA1Se acab\xF3! \xA1Presentadora! "
-  - "\xA1Me voy! No pienso pasar ni un minuto m\xE1s con alguien que no tiene ni
-    donde caerse muerto."
-  - "\xBFInfluencer? Vamos que te grabas como no haces nada durante todo el d\xEDa.
-    Ojal\xE1 a m\xED me pagaran por no hacer nada. \xBFY d\xF3nde invertiste tu dinero?"
-  - "\xA1Espera! D\xE9jame adivinarlo, se me da bien. Veamos viendo tu aspecto y
-    como vistes seguro que has invertido en Shaon, la marca de moda r\xE1pida."
-  - "\xBFNo? Pues veamos, viendo que te gusta el campo seguro que eres de esa gente
-    rara que no te gustar\xEDa verlo desaparecer por las minas, as\xED que seguro
-    que has invertido en Greenplace."
-  - "\xBFNo? \xBFD\xF3nde lo has invertido?"
-  - "\xBFHas invertido en un negocio de casino? Sorprendente, eso te puede dar muchos
-    beneficios, sobre todo por la gente que tira todo su dinero ah\xED. No s\xE9
-    c\xF3mo no ven que nunca van a ganar nada jajaja. Me encanta que te aproveches
-    de ellos."
-  - "\xBFEn qu\xE9 parte has invertido? \xBFEn la estructura, en las m\xE1quinas,
-    en general\u2026?"
-  - No te entiendo.
-  - "\xBFEntonces no has invertido en un negocio?"
-  - "Entonces, eres un vago lud\xF3pata. \xA1Presentadora!"
-  - "\xA1Me voy! \xA1No quiero estar con una m\xE1quina de perder dinero que me arruine
-    la reputaci\xF3n y la cartera!"
-  dialgosAlvaro:
-  - "\xBFPerd\xF3n? jaja."
-  - "Bueno, la normal \xBFno? (parece que no ha cambiado nada)."
-  - "S\xED, claro (desde luego que t\xFA tienes portada y ya)."
-  - Yo me llamo Roberto y soy de un pueblo cercano.
-  - "S\xED."
-  - "\xBFPor qu\xE9 lo dices?"
-  - "A ver, tiene sus diferencias con la ciudad pero no es para tanto. Adem\xE1s,
-    la ciudad est\xE1 a media hora en coche."
-  - Hombre, tengo buenos gustos jaja.
-  - Pues salgo con mis amigos por ah-.
-  - No, ellos no tienen tan buen gusto como yo (no me ha dejado ni terminar).
-  - Vale, gracias jaja.
-  - "Yo no suelo viajar mucho, suelo ir en verano a la playa y poco m\xE1s (qu\xE9
-    r\xE1pido ha cambiado de tema)."
-  - "A Chiclana de la Frontera, C\xE1diz."
-  - "Bueno uno intenta vivir bien en un futuro. \xBFY has estudiado algo?"
-  - "\xBFADE? Interesante."
-  - "Nunca hab\xEDa o\xEDdo hablar de ese curso."
-  - "Y \xBFte sirve ese curso para tu trabajo?"
-  - "\xBFSubdirector ya? Eres bastante j\xF3ven, \xBFc\xF3mo lo has hecho?"
-  - No lo dudo.
-  - Yo no he estudiado.
-  - "Gracias, yo tambi\xE9n me lo he pasado bien. \xBFQuieres que vayamos a una bodega
-    donde sirven un vino excelente?"
-  - Yo creo que no.
-  - "No, no, yo no he estudiado una carrera, \xBFte acuerdas?"
-  - "Yo no he estado en Suiza. D\xE9jalo, v\xE1monos ya que se nos va a hacer tarde."
-  - Pe-
-  - "\xA1No, espera!"
-  - "Pe-pero, esc\xFAchame tengo mis motivos."
-  - "Esto\u2026yo\u2026"
-  dialgosAlvaroPos:
-  - 'Jajaja creo que no has estado en un pueblo. '
-  - "Hay electricidad y tiendas para comprar, aunque no est\xE1n las grandes franquicias.
-    Adem\xE1s, no habr\xE1 discotecas pero puedes ir a montar a caballo por el monte."
-  - "S\xED y soy el mejor."
-  - "No, no, nada de eso. Simplemente estoy invirtiendo todos mis ahorros para poder
-    ganar mucho m\xE1s en un futuro. "
-  - "Ya sabes, trabajar m\xE1s duro ahora para descansar en un futuro. Ese es mi
-    objetivo."
-  - "Pues me hice influencer y empec\xE9 a ganar dinero, pero he tenido gente que
-    me ha impulsado y estoy pensando en estudiar algo de empresas para montar un
-    negocio."
-  - "\xBFMe recomiendas lo que has estudiado t\xFA?"
-  - "Entonces har\xE9 ADE, creo que me servir\xE1."
-  - "(Marcos es alguien que se cree superior, que tiene dinero y le encanta. Deber\xEDa
-    hablarle de eso para gan\xE1rmelo de forma definitiva)."
-  dialgosAlvaroNeg:
-  - "\xBFQue no hay electricidad? Qu\xE9 barbaridades hay que o\xEDr. Claro que hay
-    electricidad, tiendas y fiestas similares a las discotecas."
-  - "\xA1Son mejores que tus discotecas! Y si quieres despejarte puedes irte hasta
-    al campo a darte un paseo."
-  - "Sabes, no todo el mundo tiene dinero infinito para ir a playas ex\xF3ticas."
-  - "\xBFY t\xFA si? "
-  - "Ah, no sab\xEDa que trabajar duro era vivir del dinero de pap\xE1."
-  - "Que eres un ni\xF1ito de pap\xE1 que depende de su dinero."
-  - "Pues me hice influencer y gan\xE9 mucho dinero con ello."
-  - En el c-
-  - Eh, no.
-  - "No, ah\xED tampoco."
-  - En el casino.
-  - "Ah\u2026"
-  - 'En la ruleta de la suerte. '
-  - "Me apost\xE9 mi dinero all\xED, pero pronto lo recuperar\xE9."
-  - "Ser cliente del casino cuenta como invertir en \xE9l, \xBFno crees?"
-  dialgosPresentadora:
-  - "Bueno pues aqu\xED est\xE1 tu incre\xEDble cita. \xA1Pas\xE1roslo bien!"
-  - "\xBFS\xED? \xBFQu\xE9 sucede?"
-  - "\xBFS\xED?"
-  - "\xBFS\xED?"
-  - "\xBFAlg\xFAn problema?"
-  - "Va a tener que acompa\xF1arme."
-  textoDial: {fileID: 2079425541}
-  Panel: {fileID: 1501371896}
-  D1_Pos: {fileID: 306078272}
-  D1_Neg: {fileID: 883968007}
-  D2_Pos: {fileID: 936930506}
-  D2_Neg: {fileID: 603090271}
-  D3_Pos: {fileID: 1833532481}
-  D3_Neg: {fileID: 1727546769}
-  D1T_Pos: {fileID: 6316394}
-  D1T_Neg: {fileID: 929332059}
-  D2T_Pos: {fileID: 675076393}
-  D2T_Neg: {fileID: 206315794}
-  D3T_Pos: {fileID: 1900601199}
-  D3T_Neg: {fileID: 42186892}
-  D1_PosB: {fileID: 306078271}
-  D1_NegB: {fileID: 883968006}
-  D2_PosB: {fileID: 936930505}
-  D2_NegB: {fileID: 603090270}
-  D3_PosB: {fileID: 1833532480}
-  D3_NegB: {fileID: 1727546766}
-  D1Pos: 0
-  D1Neg: 0
-  D2Pos: 0
-  D2Neg: 0
-  D3Pos: 0
-  D3Neg: 0
---- !u!114 &2111339903
+  dialogueLines:
+  - characterName: Roberto
+    dialogueText: "No, no, nada de eso. Simplemente estoy invirtiendo todos mis ahorros
+      para poder ganar mucho m\xE1s en un futuro. "
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xA1Ah!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Ya sabes, trabajar m\xE1s duro ahora para descansar en un futuro.
+      Ese es mi objetivo."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8f794568cc8c95c428d5652ffd2e4260, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "Ah, pues no est\xE1 mal tener como objetivo querer imitar ser
+      de mi clase."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 4ca95e32a62079e4085cd94773933ce0, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Bueno uno intenta vivir bien en un futuro. \xBFY has estudiado
+      algo?\r\r"
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "S\xED, ADE."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFADE? Interesante."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "S\xED, bueno en realidad fue un curso especial de gesti\xF3n empresarial
+      y de la econom\xEDa de una gran entidad."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Nunca hab\xEDa o\xEDdo hablar de ese curso."
+    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 8300000, guid: 8f794568cc8c95c428d5652ffd2e4260, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "Claro, est\xE1 reservada a gente como yo, no lo entender\xEDas. "
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Y \xBFte sirve ese curso para tu trabajo?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xA1Claro! Me ense\xF1a todo lo que tengo que saber sobre c\xF3mo
+      son los procesos de dirigir una empresa. Si no, no podr\xEDa tener el puesto
+      de subdirector en la empresa de mi padre."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFSubdirector ya? Eres bastante j\xF3ven, \xBFc\xF3mo lo has
+      hecho?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "Bueno mi padre me di\xF3 el puesto al contratarme, pero estoy
+      m\xE1s que cualificado gracias al curso que he hecho, adem\xE1s as\xED evitamos
+      que alg\xFAn trabajador se queje, pero estoy super preparado \xA1no lo dudes!"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: No lo dudo.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "Bueno, \xBFt\xFA qu\xE9 has estudiado?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: Yo no he estudiado.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options: []
+    nextSceneName: 
+  - characterName: Marcos
+    dialogueText: "\xBFNo? Estudiar es muy importante para formarte bien. \xBFY c\xF3mo
+      ganas dinero?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
+    options:
+    - optionText: Respuesta corta
+      nextDialogue: {fileID: 1749787035}
+    - optionText: Respuesta Larga
+      nextDialogue: {fileID: 1303996882}
+    nextSceneName: 
+--- !u!4 &2099117492
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2099117490}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1026.6927, y: 562.9703, z: 0.014006853}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &2114207929
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2114207933}
+  - component: {fileID: 2114207932}
+  - component: {fileID: 2114207931}
+  - component: {fileID: 2114207930}
+  m_Layer: 5
+  m_Name: ButtonHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!114 &2114207930
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2111339901}
+  m_GameObject: {fileID: 2114207929}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_IgnoreReversedGraphics: 1
-  m_BlockingObjects: 0
-  m_BlockingMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
---- !u!114 &2111339904
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &2114207931
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2111339901}
+  m_GameObject: {fileID: 2114207929}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
-  m_ReferencePixelsPerUnit: 100
-  m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 1920, y: 1080}
-  m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
-  m_PhysicalUnit: 3
-  m_FallbackScreenDPI: 96
-  m_DefaultSpriteDPI: 96
-  m_DynamicPixelsPerUnit: 1
-  m_PresetInfoIsWorld: 0
---- !u!223 &2111339905
-Canvas:
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &2114207932
+CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2111339901}
-  m_Enabled: 1
-  serializedVersion: 3
-  m_RenderMode: 0
-  m_Camera: {fileID: 0}
-  m_PlaneDistance: 100
-  m_PixelPerfect: 0
-  m_ReceivesEvents: 1
-  m_OverrideSorting: 0
-  m_OverridePixelPerfect: 0
-  m_SortingBucketNormalizedSize: 0
-  m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 25
-  m_UpdateRectTransformForStandalone: 0
-  m_SortingLayerID: 0
-  m_SortingOrder: 0
-  m_TargetDisplay: 0
---- !u!224 &2111339906
+  m_GameObject: {fileID: 2114207929}
+  m_CullTransparentMesh: 1
+--- !u!224 &2114207933
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2111339901}
+  m_GameObject: {fileID: 2114207929}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1501371897}
-  - {fileID: 306078269}
-  - {fileID: 883968004}
-  - {fileID: 936930503}
-  - {fileID: 603090268}
-  - {fileID: 1833532478}
-  - {fileID: 1727546768}
-  m_Father: {fileID: 0}
+  m_Children: []
+  m_Father: {fileID: 785077458}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0}
-  m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 0, y: 0}
-  m_Pivot: {x: 0, y: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 256, y: 0}
+  m_SizeDelta: {x: 150, y: 100}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1369287834}
-  - {fileID: 825467144}
-  - {fileID: 2111339906}
-  - {fileID: 2092846479}
+  - {fileID: 519967064}
+  - {fileID: 806958603}
+  - {fileID: 785077458}
+  - {fileID: 1975751412}
+  - {fileID: 1889215867}
+  - {fileID: 1660527867}
+  - {fileID: 1460377845}
+  - {fileID: 2099117492}
+  - {fileID: 1375372542}
+  - {fileID: 1303996883}
+  - {fileID: 1749787036}
