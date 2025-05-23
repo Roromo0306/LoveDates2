@@ -1063,20 +1063,6 @@ MonoBehaviour:
     options: []
     nextSceneName: 
   - characterName: Marcos
-    dialogueText: "\xA1Se acab\xF3! \xA1Presentadora! "
-    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
-    characterPosition: 1
-    voiceClip: {fileID: 0}
-    options: []
-    nextSceneName: 
-  - characterName: Presentadora
-    dialogueText: "\xBFS\xED?"
-    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
-    characterPosition: 0
-    voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
-    options: []
-    nextSceneName: 
-  - characterName: Marcos
     dialogueText: "\xA1Me voy! No pienso pasar ni un minuto m\xE1s con alguien que
       no tiene ni donde caerse muerto."
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
@@ -1154,24 +1140,10 @@ MonoBehaviour:
     nextSceneName: 
   - characterName: Marcos
     dialogueText: "\xA1\xBFDar un paseo por el campo?! \xBFQu\xE9 eres, un peregrino?
-      Mira yo lo dejo, \xA1presentadora!"
+      Mira yo lo dejo, yo no aguanto m\xE1s a este aldeano, \xA1quiero cambiar!"
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
     characterPosition: 1
     voiceClip: {fileID: 8300000, guid: 9be7275c13ac7744b94363e4700295d6, type: 3}
-    options: []
-    nextSceneName: 
-  - characterName: Presentadora
-    dialogueText: "\xBFS\xED? \xBFQu\xE9 sucede?"
-    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
-    characterPosition: 0
-    voiceClip: {fileID: 0}
-    options: []
-    nextSceneName: 
-  - characterName: Marcos
-    dialogueText: "Yo no aguanto m\xE1s a este aldeano, \xA1quiero cambiar!"
-    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
-    characterPosition: 0
-    voiceClip: {fileID: 0}
     options: []
     nextSceneName: Gameover
 --- !u!4 &1460377845
@@ -1532,14 +1504,7 @@ MonoBehaviour:
     options: []
     nextSceneName: 
   - characterName: Marcos
-    dialogueText: "Entonces, eres un vago lud\xF3pata. \xA1Presentadora!"
-    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
-    characterPosition: 0
-    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
-    options: []
-    nextSceneName: 
-  - characterName: Presentadora
-    dialogueText: "\xBFS\xED?"
+    dialogueText: "Entonces, eres un vago lud\xF3pata."
     characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
     characterPosition: 0
     voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
@@ -1598,14 +1563,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - characterName: Presentadora
-    dialogueText: "Bueno pues aqu\xED est\xE1 tu incre\xEDble cita. \xA1Pas\xE1roslo
-      bien!"
-    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
-    characterPosition: 1
-    voiceClip: {fileID: 8300000, guid: 6910c1e5f8b04d54b886acbea31f2f26, type: 3}
-    options: []
-    nextSceneName: 
   - characterName: Marcos
     dialogueText: Con esa ropa desde luego que no mucho jaja.
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}

@@ -225,20 +225,6 @@ MonoBehaviour:
     characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
-    nextSceneName: 
-  - characterName: Presentadora
-    dialogueText: "\xBFY tu acompa\xF1ante?"
-    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
-    characterPosition: 0
-    voiceClip: {fileID: 0}
-    options: []
-    nextSceneName: 
-  - characterName: Roberto
-    dialogueText: "Se ha levantado y se ha ido.\r"
-    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
-    characterPosition: 0
-    voiceClip: {fileID: 0}
-    options: []
     nextSceneName: Gameover
 --- !u!4 &60775531
 Transform:
@@ -589,14 +575,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - characterName: Presentadora
-    dialogueText: "Bueno pues aqu\xED est\xE1 tu incre\xEDble cita. \xA1Pas\xE1roslo
-      bien!"
-    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
-    characterPosition: 1
-    voiceClip: {fileID: 8300000, guid: 6910c1e5f8b04d54b886acbea31f2f26, type: 3}
-    options: []
-    nextSceneName: 
   - characterName: Roberto
     dialogueText: "\xA1Hola! Soy Roberto, encantado."
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
@@ -875,30 +853,7 @@ MonoBehaviour:
     options: []
     nextSceneName: 
   - characterName: Vik
-    dialogueText: "\xA1Prima!"
-    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
-    characterPosition: 0
-    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
-    options: []
-    nextSceneName: 
-  - characterName: Presentadora
-    dialogueText: "\xA1V\xEDctor Eugenio te he dicho que no me llames as\xED aqu\xED! "
-    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
-    characterPosition: 0
-    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
-    options: []
-    nextSceneName: 
-  - characterName: Vik
-    dialogueText: "Perd\xF3n pero es que me quiero ir, me est\xE1 agobiando con tantas
-      preguntas personales."
-    characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
-    characterPosition: 0
-    voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
-    options: []
-    nextSceneName: 
-  - characterName: Presentadora
-    dialogueText: "Hay que ver, \xBFno ves que es viejo? Venga Vik, hay gente que
-      no sabe estar y ya."
+    dialogueText: "\xA1Me voy, si no sabes comportarte en los sitios no vayas!"
     characterSprite: {fileID: 21300000, guid: c234420b294ca7242aeba7c69bcb96b3, type: 3}
     characterPosition: 0
     voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
@@ -1641,22 +1596,9 @@ MonoBehaviour:
     nextSceneName: 
   - characterName: Vik
     dialogueText: "Nadie, d\xE9jame en paz y punto, ambos somos mayores y nadie es
-      superior a nadie. \xA1Presentadora!"
-    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
-    characterPosition: 1
-    voiceClip: {fileID: 0}
-    options: []
-    nextSceneName: 
-  - characterName: Presentadora
-    dialogueText: "\xBFS\xED, V\xEDctor Euge- perd\xF3n, Vik? "
-    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
-    characterPosition: 1
-    voiceClip: {fileID: 0}
-    options: []
-    nextSceneName: 
-  - characterName: Vik
-    dialogueText: "\xA1Me voy! \xA1Para estar con alguien que se cree mejor que yo
-      prefiero irme a jugar, por lo menos ah\xED aprendo algo!"
+      superior a nadie. \xA1Presentadora! \xA1Me voy! \xA1Para estar con alguien
+      que se cree mejor que yo prefiero irme a jugar, por lo menos ah\xED aprendo
+      algo!"
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
     characterPosition: 1
     voiceClip: {fileID: 0}
@@ -2068,52 +2010,111 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Presentadora
-    dialogueText: "\xBFS\xED?"
+  - characterName: Vik
+    dialogueText: "Est\xE1 descansando."
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
     characterPosition: 1
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
   - characterName: Roberto
-    dialogueText: "\xBFPuedo saber su nombre real?"
+    dialogueText: "\xBFC\xF3mo lo sabes?"
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
     characterPosition: 1
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Presentadora
-    dialogueText: "S\xED, claro,  Mar\xEDa de las Rosas."
-    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
-    characterPosition: 1
-    voiceClip: {fileID: 0}
-    options: []
-    nextSceneName: 
-  - characterName: Roberto
-    dialogueText: "\xBFC\xF3mo se va a llamar Mar\xEDa?"
-    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
-    characterPosition: 1
-    voiceClip: {fileID: 0}
-    options: []
-    nextSceneName: 
-  - characterName: Presentadora
-    dialogueText: "\xBFQu\xE9 culpa tengo yo de que mi madre me llamara Mar\xEDa?
-      \xBFEst\xE1 en contra de las Mar\xEDas?"
+  - characterName: Vik
+    dialogueText: "\xBFPor qu\xE9 no lo iba a saber? \xBFQuieres que la llame?"
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
     characterPosition: 1
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
   - characterName: Roberto
-    dialogueText: " \xA1Su nombre no, el de \xE9l!"
+    dialogueText: "Si no hay otra opci\xF3n\u2026Espera, \xBFc\xF3mo tien-"
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
     characterPosition: 1
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Presentadora
-    dialogueText: "\xA1Ah! Haberlo dicho. \xC9l se llama V\xEDctor Eugenio Mart\xEDn-Zamorano
-      Garc\xEDa-M\xE1rquez de la Sant\xEDsima Trinidad."
+  - characterName: Vik
+    dialogueText: Dice que le digas lo que quieres.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xBFTienes que estar t\xFA de intermediario?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "S\xED. Yo le dir\xE9 exactamente lo que t\xFA le dir\xEDas. Conf\xEDa
+      en m\xED"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: Dile que quiero saber tu nombre.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: Dice que quiere saber tu nombre.
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Dice que se llama Mar\xEDa de las Rosas."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "Su nombre no, el tuyo. Ves esto pasa por estar de intermediario.
+      Que me escuche desde aqu\xED y ya."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "No te oye pero te nota enfadado y se pregunta si tienes algo en
+      contra de las Mar\xEDas."
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Roberto
+    dialogueText: "\xA1\xBFQu\xE9?!  \xA1Quiero el nombre real de mi cita! (A ver
+      si as\xED me escucha)"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Prima, \xBFde verdad se lo tengo que decir?"
+    characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Vik
+    dialogueText: "Me llamo V\xEDctor Eugenio Mart\xEDn-Zamorano Garc\xEDa-M\xE1rquez
+      de la Sant\xEDsima Trinidad."
     characterSprite: {fileID: 21300000, guid: 2706ed63a2d095048aa1a4e68eb34025, type: 3}
     characterPosition: 1
     voiceClip: {fileID: 0}
