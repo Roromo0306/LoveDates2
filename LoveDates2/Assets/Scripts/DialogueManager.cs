@@ -34,6 +34,8 @@ public class DialogueManager : MonoBehaviour
 
     private bool isTyping = false;
 
+    public Animator FadeInMini;
+
     void Start()
     {
         defaultMaterial = leftCharacterImage.material;
@@ -59,17 +61,23 @@ public class DialogueManager : MonoBehaviour
         else
         {
             Debug.Log("Diálogo terminado");
+            FadeInMini.SetTrigger("DialogoTerminado");
             // Aquí podrías añadir lógica para finalizar escena o avanzar a otra
-            DialogueLine lastLine = dialogueData.dialogueLines[dialogueData.dialogueLines.Length - 1];
-            if (!string.IsNullOrEmpty(lastLine.nextSceneName))
-            {
-                SceneManager.LoadScene(lastLine.nextSceneName);
-            }
-            else
-            {
-                // Si no hay escena asignada, solo imprime mensaje
-                Debug.Log("No se asignó una nueva escena.");
-            }
+            StartCoroutine(PasarEscena());
+        }
+    }
+    IEnumerator PasarEscena()
+    {
+        yield return new WaitForSeconds(1);
+        DialogueLine lastLine = dialogueData.dialogueLines[dialogueData.dialogueLines.Length - 1];
+        if (!string.IsNullOrEmpty(lastLine.nextSceneName))
+        {
+            SceneManager.LoadScene(lastLine.nextSceneName);
+        }
+        else
+        {
+            // Si no hay escena asignada, solo imprime mensaje
+            Debug.Log("No se asignó una nueva escena.");
         }
     }
 
