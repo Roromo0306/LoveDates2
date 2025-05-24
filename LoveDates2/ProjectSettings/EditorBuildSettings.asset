@@ -6,8 +6,8 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/SampleScene.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/MainMenu.unity
+    guid: d578de0206fbad846a0f92efb420b9f0
   - enabled: 1
     path: Assets/Scenes/Cita Marcos.unity
     guid: ec5aaefba065a1e4ea891190a75231db
@@ -50,9 +50,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VideoInicial.unity
     guid: eb252ae9a5665884b8b46bae06c18fd2
-  - enabled: 1
-    path: Assets/Scenes/MainMenu.unity
-    guid: d578de0206fbad846a0f92efb420b9f0
   - enabled: 1
     path: Assets/Scenes/Video Zoe.unity
     guid: 97297536ca76d084aa88d2c6e5613bc6

@@ -28,7 +28,7 @@ public class jugadorMarcos : MonoBehaviour
         //Debug.Log(puntuacion);
         if(puntuacion >= 10)
         {
-            Time.timeScale = 0;
+            
             Debug.Log("Ganaste");
             //OnMinijuegoFinished?.Invoke();
             SceneManager.LoadScene("Cita Marcos Final");
