@@ -66,6 +66,12 @@ EditorBuildSettings:
     path: Assets/Scenes/Gameover Vik.unity
     guid: 5d29567d172c02a42a9fe804351f84c1
   - enabled: 1
+    path: Assets/Scenes/Cita Morgana Final.unity
+    guid: 64b792ad08f17784686b64f38c5f205b
+  - enabled: 1
+    path: Assets/Scenes/Cita Marcos Final.unity
+    guid: 5a115207253622c47b1de74f88ebf8ed
+  - enabled: 1
     path: Assets/Scenes/Video Morgana.unity
     guid: 87db8314478096049b019dd161943b9f
   m_configObjects: {}
