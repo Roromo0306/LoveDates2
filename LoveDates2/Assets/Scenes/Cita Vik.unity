@@ -206,7 +206,7 @@ MonoBehaviour:
   - characterName: Vik
     dialogueText: "\xBFLas dos?\r"
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -222,10 +222,10 @@ MonoBehaviour:
       me voy que podr\xEDa haber terminado una partida en lo que est\xE1 durando
       esta conversaci\xF3n. "
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 0}
     options: []
-    nextSceneName: Gameover
+    nextSceneName: Gameover Vik
 --- !u!4 &60775531
 Transform:
   m_ObjectHideFlags: 0
@@ -351,7 +351,7 @@ MonoBehaviour:
   - characterName: Roberto
     dialogueText: "Y entonces, \xBFqu\xE9 haces aqu\xED?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
     options: []
     nextSceneName: 
@@ -366,7 +366,7 @@ MonoBehaviour:
   - characterName: Roberto
     dialogueText: "\xBFY no era m\xE1s f\xE1cil no hacer la apuesta?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
     options: []
     nextSceneName: 
@@ -381,7 +381,7 @@ MonoBehaviour:
     dialogueText: "Eso est\xE1 bien. Y bueno, pero lo de que solo juegas y ves v\xEDdeos
       no ser\xE1 del todo verdad, tambi\xE9n har\xE1s otras cosas \xBFno?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
     options: []
     nextSceneName: 
@@ -578,28 +578,28 @@ MonoBehaviour:
   - characterName: Roberto
     dialogueText: "\xA1Hola! Soy Roberto, encantado."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
     options: []
     nextSceneName: 
   - characterName: Vik
     dialogueText: "\u2026"
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 8300000, guid: 6910c1e5f8b04d54b886acbea31f2f26, type: 3}
     options: []
     nextSceneName: 
   - characterName: Roberto
     dialogueText: Si tienes un chat importante con alguien puedo volver luego.
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
     options: []
     nextSceneName: 
   - characterName: Vik
     dialogueText: "\xBFQu\xE9? Perd\xF3n que con los cascos no te escuchaba."
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
     options: []
     nextSceneName: 
@@ -607,7 +607,7 @@ MonoBehaviour:
     dialogueText: "Que te dec\xEDa que si ten\xEDas un chat importante con alguien
       que puedo volver luego."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -615,49 +615,49 @@ MonoBehaviour:
     dialogueText: No, estaba jugando a Leafe of Legends mobile. Puede volver luego
       que estoy esperando a mi cita.
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
   - characterName: Roberto
     dialogueText: Yo soy tu cita.
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
     options: []
     nextSceneName: 
   - characterName: Vik
     dialogueText: "\xBFNo eres camarero?"
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
     options: []
     nextSceneName: 
   - characterName: Roberto
     dialogueText: "\xBFNo? Si ni tengo el uniforme de camarero."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
     options: []
     nextSceneName: 
   - characterName: Vik
     dialogueText: "\xBFTienen uniforme los camareros?"
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
     options: []
     nextSceneName: 
   - characterName: Roberto
     dialogueText: "S\xED."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
     options: []
     nextSceneName: 
   - characterName: Vik
     dialogueText: "Pues no me hab\xEDa dado cuenta."
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
     options:
     - optionText: Molesto
@@ -797,7 +797,7 @@ MonoBehaviour:
       yo el que no sabe hablar normal. \xBFSabes? Est\xE1s siendo muy desagradable,
       si tienes un problema de fuera no hace falta que lo pagues conmigo."
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
     options: []
     nextSceneName: 
@@ -813,7 +813,7 @@ MonoBehaviour:
     dialogueText: "Te he dicho que me gusta jugar a Leafe of Legends, \xBFno te basta
       con eso?"
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
     options: []
     nextSceneName: 
@@ -828,7 +828,7 @@ MonoBehaviour:
     dialogueText: "Pues no s\xE9 qu\xE9 quieres que te diga, me gusta tambi\xE9n
       Leafe of Legends mobile."
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
     options: []
     nextSceneName: 
@@ -842,24 +842,24 @@ MonoBehaviour:
   - characterName: Vik
     dialogueText: "\xA1Mira me est\xE1s estresando, no me est\xE1s respetando!"
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
     options: []
     nextSceneName: 
   - characterName: Roberto
     dialogueText: Per-
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
     options: []
     nextSceneName: 
   - characterName: Vik
     dialogueText: "\xA1Me voy, si no sabes comportarte en los sitios no vayas!"
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
     options: []
-    nextSceneName: Gameover
+    nextSceneName: Gameover Vik
 --- !u!4 &709405820
 Transform:
   m_ObjectHideFlags: 0
@@ -1243,6 +1243,103 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1010795832
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1010795833}
+  - component: {fileID: 1010795836}
+  - component: {fileID: 1010795835}
+  - component: {fileID: 1010795834}
+  m_Layer: 5
+  m_Name: FadeOut
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1010795833
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010795832}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1623069186}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!95 &1010795834
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010795832}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 88eae646a5f9c2a489d8cbda5fd4edb3, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1010795835
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010795832}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 0
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 0
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1010795836
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1010795832}
+  m_CullTransparentMesh: 1
 --- !u!1 &1085493472
 GameObject:
   m_ObjectHideFlags: 0
@@ -1397,7 +1494,7 @@ MonoBehaviour:
       videojuegos, deber\xEDa sacarle m\xE1s conversaci\xF3n sobre eso para gan\xE1rmelo).
       \r"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
     options: []
     nextSceneName: Minijuego Vik
@@ -1416,6 +1513,81 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1178552232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1178552233}
+  - component: {fileID: 1178552235}
+  - component: {fileID: 1178552234}
+  m_Layer: 5
+  m_Name: FondoRestaurante
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1178552233
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178552232}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1623069186}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 1920, y: 1080}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1178552234
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178552232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 99656fcaf85a231409c604cd385bbf74, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1178552235
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1178552232}
+  m_CullTransparentMesh: 1
 --- !u!1 &1193078979
 GameObject:
   m_ObjectHideFlags: 0
@@ -1591,7 +1763,7 @@ MonoBehaviour:
   - characterName: Roberto
     dialogueText: Eh...
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -1604,7 +1776,7 @@ MonoBehaviour:
     characterPosition: 1
     voiceClip: {fileID: 0}
     options: []
-    nextSceneName: Gameover
+    nextSceneName: Gameover Vik
 --- !u!4 &1226327925
 Transform:
   m_ObjectHideFlags: 0
@@ -1828,10 +2000,13 @@ RectTransform:
   m_LocalScale: {x: 0, y: 0, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children:
+  - {fileID: 1178552233}
   - {fileID: 1085493473}
   - {fileID: 1510550125}
   - {fileID: 2138771423}
   - {fileID: 1598822266}
+  - {fileID: 1907979358}
+  - {fileID: 1010795833}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -1992,11 +2167,11 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 0}
+  m_Father: {fileID: 1623069186}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 960, y: 540}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 1920, y: 1080}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &2080453078
@@ -2089,7 +2264,7 @@ MonoBehaviour:
   - characterName: Roberto
     dialogueText: "\xBFQu\xE9?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -2104,7 +2279,7 @@ MonoBehaviour:
   - characterName: Roberto
     dialogueText: "\xBFPresentadora?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -2118,7 +2293,7 @@ MonoBehaviour:
   - characterName: Roberto
     dialogueText: "\xBFC\xF3mo lo sabes?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -2132,7 +2307,7 @@ MonoBehaviour:
   - characterName: Roberto
     dialogueText: "Si no hay otra opci\xF3n\u2026Espera, \xBFc\xF3mo tien-"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -2146,7 +2321,7 @@ MonoBehaviour:
   - characterName: Roberto
     dialogueText: "\xBFTienes que estar t\xFA de intermediario?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -2161,7 +2336,7 @@ MonoBehaviour:
   - characterName: Roberto
     dialogueText: Dile que quiero saber tu nombre.
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -2175,7 +2350,7 @@ MonoBehaviour:
   - characterName: Vik
     dialogueText: "Dice que se llama Mar\xEDa de las Rosas."
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -2191,7 +2366,7 @@ MonoBehaviour:
     dialogueText: "No te oye pero te nota enfadado y se pregunta si tienes algo en
       contra de las Mar\xEDas."
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -2206,7 +2381,7 @@ MonoBehaviour:
   - characterName: Vik
     dialogueText: "Prima, \xBFde verdad se lo tengo que decir?"
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -2221,7 +2396,7 @@ MonoBehaviour:
   - characterName: Roberto
     dialogueText: Mejor te llamo Vik.
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -2235,7 +2410,7 @@ MonoBehaviour:
   - characterName: Roberto
     dialogueText: "Y bueno, \xBFqu\xE9 te gusta hacer?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -2249,7 +2424,7 @@ MonoBehaviour:
   - characterName: Roberto
     dialogueText: "Y \xBFqu\xE9 m\xE1s?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -2362,7 +2537,6 @@ SceneRoots:
   m_Roots:
   - {fileID: 978352811}
   - {fileID: 1623069186}
-  - {fileID: 1907979358}
   - {fileID: 1193078982}
   - {fileID: 642350020}
   - {fileID: 323316050}

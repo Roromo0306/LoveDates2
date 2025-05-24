@@ -41,4 +41,88 @@ public class CinematicaManager : MonoBehaviour
         yield return new WaitForSeconds(1);
         SceneManager.LoadScene("Cita Marcos");
     }
+
+    public void PasarViKVideo()
+    {
+        animator.SetTrigger("DialogoTerminado");
+        StartCoroutine(VideoVik());
+    }
+
+    IEnumerator VideoVik()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("Video Vik");
+    }
+
+    public void CitaVik()
+    {
+        animator.SetTrigger("DialogoTerminado");
+        StartCoroutine(Vik());
+    }
+
+    IEnumerator Vik()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("Cita Vik");
+    }
+
+    public void PasarMorganaVideo()
+    {
+        animator.SetTrigger("DialogoTerminado");
+        StartCoroutine(VideoMorgana());
+    }
+
+    IEnumerator VideoMorgana()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("Video Morgana");
+    }
+
+    public void CitaMorgana()
+    {
+        animator.SetTrigger("DialogoTerminado");
+        StartCoroutine(Morgana());
+    }
+
+    IEnumerator Morgana()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("Cita Morgana");
+    }
+
+    public void PasarZoeVideo()
+    {
+        animator.SetTrigger("DialogoTerminado");
+        StartCoroutine(VideoZoe());
+    }
+
+    IEnumerator VideoZoe()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("Video Zoe");
+    }
+
+    public void CitaZoe()
+    {
+        animator.SetTrigger("DialogoTerminado");
+        StartCoroutine(Zoe());
+    }
+
+    IEnumerator Zoe()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("Cita Zoe");
+    }
+
+    public void VolverMenu()
+    {
+        animator.SetTrigger("DialogoTerminado");
+        StartCoroutine(Menu());
+    }
+
+    IEnumerator Menu()
+    {
+        yield return new WaitForSeconds(1);
+        SceneManager.LoadScene("MainMenu");
+    }
 }
