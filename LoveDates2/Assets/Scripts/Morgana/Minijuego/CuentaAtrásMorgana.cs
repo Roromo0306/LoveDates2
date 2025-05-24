@@ -5,7 +5,7 @@ using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
 
-public class CuentaAtrás : MonoBehaviour
+public class CuentaAtrásMorgana : MonoBehaviour
 {
     public int inicioTiempo = 60;
     public TextMeshProUGUI cuentaText;
@@ -33,6 +33,6 @@ public class CuentaAtrás : MonoBehaviour
     private void ads()
     {
         Debug.Log("Tiempo acabado");
-        SceneManager.LoadScene("Gameover Marcos");
+        SceneManager.LoadScene("Gameover Morgana");
     }
 }

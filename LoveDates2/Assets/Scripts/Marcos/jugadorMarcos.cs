@@ -50,7 +50,7 @@ public class jugadorMarcos : MonoBehaviour
 
         if (collision.gameObject.CompareTag("Billete2"))
         {
-            puntuacion += 5;
+            puntuacion += 3;
             Destroy(collision.gameObject);
         }
     }

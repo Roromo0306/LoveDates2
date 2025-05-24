@@ -1,13 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class JugadorVik : MonoBehaviour
 {
 
     private float velocidad = 5f;
     public int puntuacion;
-    public int vidas = 3;
+    public int vidas = 5;
 
     private Rigidbody2D rb;
     private SpriteRenderer sr;
@@ -34,14 +35,14 @@ public class JugadorVik : MonoBehaviour
         if(puntuacion == 55)
         {
             Time.timeScale = 0;
-            Debug.Log("Has Ganado");
+            SceneManager.LoadScene("Cita Vik Final");
         }
 
         if(vidas <= 0)
         {
             Destroy(this.gameObject);
             Time.timeScale = 0;
-            Debug.Log("Has Perdido");
+            SceneManager.LoadScene("Gameover Vik");
         }
     }
 

@@ -16,9 +16,8 @@ public class GameManager : MonoBehaviour
     public void GameOver()
     {
         Debug.Log("Game Over");
-        gameObject.SetActive(true);
-        button.SetActive(true);
-        Pause();    
+        SceneManager.LoadScene("Gameover Zoe");
+
     }
     public void IncreaseScore()
     {
@@ -58,6 +57,9 @@ public class GameManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(score>= 15)
+        {
+            SceneManager.LoadScene("Cita Zoe Final");
+        }
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CardController : MonoBehaviour
 {
@@ -55,7 +56,8 @@ public class CardController : MonoBehaviour
             matchCount++;
             if(matchCount>= spritePairs.Count/2)
             {
-                congratulations.SetActive(true);
+                //congratulations.SetActive(true);
+                SceneManager.LoadScene("Cita Morgana Final");
             }
         }
         else
