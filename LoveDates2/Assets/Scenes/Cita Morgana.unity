@@ -122,6 +122,1338 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &10155310
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 10155311}
+  - component: {fileID: 10155314}
+  - component: {fileID: 10155313}
+  - component: {fileID: 10155312}
+  m_Layer: 5
+  m_Name: ButtonHolder
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!224 &10155311
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10155310}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 704300132}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 676, y: -156}
+  m_SizeDelta: {x: 339, y: 192}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &10155312
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10155310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 59f8146938fff824cb5fd77236b75775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Padding:
+    m_Left: 0
+    m_Right: 0
+    m_Top: 0
+    m_Bottom: 0
+  m_ChildAlignment: 0
+  m_Spacing: 0
+  m_ChildForceExpandWidth: 1
+  m_ChildForceExpandHeight: 1
+  m_ChildControlWidth: 0
+  m_ChildControlHeight: 0
+  m_ChildScaleWidth: 0
+  m_ChildScaleHeight: 0
+  m_ReverseArrangement: 0
+--- !u!114 &10155313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10155310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 0.392}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &10155314
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 10155310}
+  m_CullTransparentMesh: 1
+--- !u!1 &49691423
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 49691426}
+  - component: {fileID: 49691425}
+  - component: {fileID: 49691424}
+  m_Layer: 0
+  m_Name: EventSystem
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &49691424
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49691423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4f231c4fb786f3946a6b90b886c48677, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SendPointerHoverToParent: 1
+  m_HorizontalAxis: Horizontal
+  m_VerticalAxis: Vertical
+  m_SubmitButton: Submit
+  m_CancelButton: Cancel
+  m_InputActionsPerSecond: 10
+  m_RepeatDelay: 0.5
+  m_ForceModuleActive: 0
+--- !u!114 &49691425
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49691423}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_FirstSelected: {fileID: 0}
+  m_sendNavigationEvents: 1
+  m_DragThreshold: 10
+--- !u!4 &49691426
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 49691423}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &403177084
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 403177085}
+  - component: {fileID: 403177087}
+  - component: {fileID: 403177086}
+  m_Layer: 5
+  m_Name: DialogueBox
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &403177085
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403177084}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 7.3999996, y: 7.3999996, z: 7.3999996}
+  m_ConstrainProportionsScale: 1
+  m_Children:
+  - {fileID: 1730281277}
+  - {fileID: 1595884541}
+  m_Father: {fileID: 704300132}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0}
+  m_AnchorMax: {x: 0.5, y: 0}
+  m_AnchoredPosition: {x: 0, y: 178}
+  m_SizeDelta: {x: 170, y: 40}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &403177086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403177084}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0.554717, g: 0.554717, b: 0.554717, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 0}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &403177087
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 403177084}
+  m_CullTransparentMesh: 1
+--- !u!1 &414925736
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 414925737}
+  - component: {fileID: 414925738}
+  m_Layer: 0
+  m_Name: IntroDialogue
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &414925737
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414925736}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1083.9077, y: 454.26437, z: 1.5177857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &414925738
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414925736}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xA1Hola! \xA1Encantado soy Roberto!"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "Hmmmm\u2026.\r\n"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xBFHola?"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "Hmmmm\u2026.\r\n"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xBFEst\xE1s bien?"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "Estaba equilibrando mis energ\xEDa extracorporales pero ALGUIEN
+      no me deja."
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xBFLo siento?"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "No lo sientas y haz que la interrupci\xF3n merezca la pena."
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Bueno, como dec\xEDa, so-\r"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "Sisi, eres Roberto, vives en un pueblo y vienes de fracasar como
+      influencer.\r"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xBFC\xF3mo sabes eso? Todav\xEDa no te he dicho nada sobre d\xF3nde
+      vivo y cu\xE1l fue mi trabajo.\r"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xA1El gran buey lunar me lo ha dicho! Y una peque\xF1a b\xFAsqueda
+      en los archivos del programa mientras nadie miraba por si iba a tener una cita
+      con un loco."
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xBFPerd\xF3n? \xBFHas dicho que has mirado en l-"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xA1En el ojo del gran le\xF3n lunar! Ah\xED he mirado."
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xBFNo era un buey?"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: Lo mismo es, son los mismos chakras.
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options:
+    - optionText: "Extra\xF1ado"
+      nextDialogue: {fileID: 480463933}
+    - optionText: Sorprendido
+      nextDialogue: {fileID: 833386056}
+    nextSceneName: 
+--- !u!1 &480463932
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 480463934}
+  - component: {fileID: 480463933}
+  m_Layer: 0
+  m_Name: "Extra\xF1ado"
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &480463933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480463932}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: "\xC1lvaro"
+    dialogueText: "No me digas que eres m\xE9dium o una cosa de esas raras."
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xA1Soy Morgana Lunar, la mejor tarotista de la ciudad! \xA1Puedo
+      ver a trav\xE9s de los chakras, ver las energ\xEDas, el futuro\u2026!"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Y a trav\xE9s de los archivos del programa, que no se te olvide
+      esa."
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xA1Ya te dije que me lo dijo el oj-"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xA1Del gran le\xF3n lunar! \xBFO era un buey? No s\xE9, quiz\xE1s
+      ahora cambiabas de animal porque \u201Ces lo mismo a nivel de chakras\u201D"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: Noto que no eres muy creyente en estos temas.
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xBFDe verdad cobras por esto?"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "Mis ganancias est\xE1n acordes con mis habilidades."
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Bua, pues entonces me voy a hacer una cosa de estas raras y as\xED
+      gano dinero."
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xA1Yo ayudo a la gente a ver sus problemas y c\xF3mo solucionarlos!
+      \xA1Puedo ver lo que esconde sus almas! \xA1No infravalores mi trabajo!"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Yo tambi\xE9n mira, hmmmm\u2026. veo\u2026. veo\u2026. \xA1Ah!
+      Que eres una estafadora."
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xA1\xBFC\xF3mo?! \xA1Se acab\xF3! \xA1Presentadora!"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xA1No aguanto m\xE1s a este individuo! \xA1No voy a estar con
+      alguien que no est\xE9 sincronizado con mis energ\xEDas!\r\n"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: Gameover
+--- !u!4 &480463934
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 480463932}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1083.9077, y: 454.26437, z: 1.5177857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &623235363
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 623235365}
+  - component: {fileID: 623235364}
+  m_Layer: 0
+  m_Name: DialogueManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &623235364
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623235363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 438e103abadf03e41a86a65c722a7bbf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueData: {fileID: 414925738}
+  nameText: {fileID: 1730281278}
+  dialogueText: {fileID: 1595884542}
+  leftCharacterImage: {fileID: 1331907545}
+  rightCharacterImage: {fileID: 1791418726}
+  defaultMaterial: {fileID: 0}
+  grayscaleMaterial: {fileID: 2100000, guid: 9dc656fd16e1f4c4cac49ea9de4a6dfc, type: 2}
+  leftCharacterRect: {fileID: 1331907544}
+  rightCharacterRect: {fileID: 1791418725}
+  raiseAmount: 20
+  raiseDuration: 0.3
+  optionsPanel: {fileID: 10155310}
+  optionButtonPrefab: {fileID: 4593362088146765836, guid: 427ac1f075eeb534aa63465759d48f81, type: 3}
+  audioSource: {fileID: 0}
+--- !u!4 &623235365
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 623235363}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &704300128
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 704300132}
+  - component: {fileID: 704300131}
+  - component: {fileID: 704300130}
+  - component: {fileID: 704300129}
+  m_Layer: 5
+  m_Name: Canvas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &704300129
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704300128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dc42784cf147c0c48a680349fa168899, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_IgnoreReversedGraphics: 1
+  m_BlockingObjects: 0
+  m_BlockingMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+--- !u!114 &704300130
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704300128}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UiScaleMode: 1
+  m_ReferencePixelsPerUnit: 100
+  m_ScaleFactor: 1
+  m_ReferenceResolution: {x: 1920, y: 1080}
+  m_ScreenMatchMode: 0
+  m_MatchWidthOrHeight: 0
+  m_PhysicalUnit: 3
+  m_FallbackScreenDPI: 96
+  m_DefaultSpriteDPI: 96
+  m_DynamicPixelsPerUnit: 1
+  m_PresetInfoIsWorld: 0
+--- !u!223 &704300131
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704300128}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 0
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 0
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 25
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+  m_TargetDisplay: 0
+--- !u!224 &704300132
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 704300128}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0, y: 0, z: 0}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1791418725}
+  - {fileID: 1331907544}
+  - {fileID: 403177085}
+  - {fileID: 10155311}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 0}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
+  m_Pivot: {x: 0, y: 0}
+--- !u!1 &776790994
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 776790996}
+  - component: {fileID: 776790995}
+  m_Layer: 0
+  m_Name: Aceptar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &776790995
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776790994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: "\xC1lvaro"
+    dialogueText: Ah bueno, me alegro por ello entonces, supongo.
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: Supones bien.
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Jaja, hace un poco de calor aqu\xED \xBFno?"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "Yo estoy bien. Gracias a mi talism\xE1n cristalino no siento ni
+      calor, ni fr\xEDo y adem\xE1s me da buena suerte en casi todos los aspectos,
+      amor, dinero\u2026"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Me alegro por t\xED pero deber\xEDamos llamar a la presentadora
+      para que ponga m\xE1s fr\xEDo."
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "Si tuvieras mi talism\xE1n cristalino no te pasar\xEDa esto. Tiene
+      varias piedras, cuarzo rosa, turmalina negra, citrino, lapisl\xE1zuli, obsid-"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Vale, pero yo quiero que bajen el aire, \xA1presentadora!"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: Parece que no viene nadie.
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "Eso es porque el universo quiere que lleves mi talism\xE1n cristalino."
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: No, gracias.
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xBFPor qu\xE9 no? Las se\xF1ales est\xE1n claras, \xBFno las
+      ves?"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: A la que no veo es a la presentadora.
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "Precisamente esa es la se\xF1al, adem\xE1s solo te cobrar\xE9
+      20 euros, oferta de amigo."
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: No, gracias.
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xA115 euros!"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: Que no, muchas gracias.
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "Mi \xFAltima oferta porque me lo est\xE1n diciendo los esp\xEDritus
+      de los antepasados, \xA110 euros!"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options:
+    - optionText: Pagar
+      nextDialogue: {fileID: 1138707454}
+    - optionText: Declinar
+      nextDialogue: {fileID: 1901307702}
+    nextSceneName: 
+--- !u!4 &776790996
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 776790994}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1083.9077, y: 454.26437, z: 1.5177857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &833386055
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 833386057}
+  - component: {fileID: 833386056}
+  m_Layer: 0
+  m_Name: Sorprendido
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &833386056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833386055}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: "\xC1lvaro"
+    dialogueText: "Entonces \xBFt\xFA eres m\xE9dium? O como se llame.\r\n"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xA1Yo soy Morgana Lunar, la mejor tarotista de la ciudad!"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xA1Wow! Interesante, aunque nunca hab\xEDa o\xEDdo hablar de
+      t\xED."
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: Acabo de empezar mi negocio.
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xBFY te va por ahora bien en tu nuevo negocio?"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "No vienen muchas personas, pero pronto vendr\xE1n, solo hay que
+      esperar."
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Bueno, ten fe, es lo \xFAnico que no hay que perder."
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xBFPara qu\xE9 quiero fe si las cartas ya me han dicho lo que
+      va pasar?"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options:
+    - optionText: Aceptar
+      nextDialogue: {fileID: 776790995}
+    - optionText: Vacilar
+      nextDialogue: {fileID: 1307437019}
+    nextSceneName: 
+--- !u!4 &833386057
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 833386055}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1083.9077, y: 454.26437, z: 1.5177857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1138707453
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1138707455}
+  - component: {fileID: 1138707454}
+  m_Layer: 0
+  m_Name: Pagar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1138707454
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138707453}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: "\xC1lvaro"
+    dialogueText: Jajajaja
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: Es un placer hacer negocios.
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: 'Hace mucho calor, pongan el aire acondicionado por favor.
+
+'
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Madre m\xEDa, que fresco hace de pronto."
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xBFVes? \xA1Es el efecto inmediato de mi talism\xE1n!"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Pues s\xED, funciona bien el talism\xE1n. Al menos si no funciona
+      es bonito."
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xA1Siempre funcionar\xE1! Aunque debes hacerle una limpieza energ\xE9tica
+      con incienso a la luz de la luna."
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: Tomo nota.
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "(A Morgana le gusta todo el tema de lo esot\xE9rico, deber\xEDa
+      sacarle m\xE1s conversaci\xF3n de esto si quiero gan\xE1rmela)"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+--- !u!4 &1138707455
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1138707453}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1083.9077, y: 454.26437, z: 1.5177857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1307437018
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1307437020}
+  - component: {fileID: 1307437019}
+  m_Layer: 0
+  m_Name: Vacilar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1307437019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307437018}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: "\xC1lvaro"
+    dialogueText: Jajajaja
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xBFDe qu\xE9 te r\xEDes? No era una broma."
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Pero vamos a ver, entre t\xFA y yo, realmente le cuentas a la
+      gente lo que quiere saber y luego le cobras 40 o 50 euros \xBFno?"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: Yo no hago eso.
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Vamos Morgana! Aqu\xED estamos en confianza."
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "Si mis \u201Ccompa\xF1eros de profesi\xF3n\u201D hacen eso no
+      significa que yo lo haga."
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xA1Si sois todos iguales! Escuch\xE1is el problema de la gente,
+      hac\xE9is vuestros trucos visuales, tir\xE1is unas cuantas cartas, le dec\xEDs
+      lo que quiere oir y luego le sac\xE1is el dinero, no es tan dif\xEDcil"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xBFMe est\xE1s acusando de estafar a la gente?"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Pues\u2026un poco lo que es \xBFno?"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xA1Lo sab\xEDa! Los sue\xF1os me mostraron que me encontrar\xEDa
+      a una persona incr\xE9dula y perdida y que ten\xEDa que alejarme de esta persona."
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "Pues entonces, adi\xF3s."
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xA1Presentadora!"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xA1Me voy! \xA1No pienso estar con alguien que no le da valor
+      a mi profesi\xF3n!"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: Gameover
+--- !u!4 &1307437020
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1307437018}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1083.9077, y: 454.26437, z: 1.5177857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1331907543
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1331907544}
+  - component: {fileID: 1331907546}
+  - component: {fileID: 1331907545}
+  m_Layer: 5
+  m_Name: Personaje A
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1331907544
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331907543}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 4.2, y: 4.2, z: 4.2}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 704300132}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -193, y: 97}
+  m_SizeDelta: {x: 200, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1331907545
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331907543}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1331907546
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1331907543}
+  m_CullTransparentMesh: 1
 --- !u!1 &1369287831
 GameObject:
   m_ObjectHideFlags: 0
@@ -214,8 +1546,485 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1595884540
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1595884541}
+  - component: {fileID: 1595884543}
+  - component: {fileID: 1595884542}
+  m_Layer: 5
+  m_Name: TextoDialogo
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1595884541
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595884540}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 403177085}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1595884542
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595884540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: holaa
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4278190080
+  m_fontColor: {r: 0, g: 0, b: 0, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 6
+  m_fontSizeBase: 6
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 18.190208, y: 8.2288685, z: 16.890968, w: 6.0633774}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1595884543
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1595884540}
+  m_CullTransparentMesh: 1
+--- !u!1 &1730281276
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1730281277}
+  - component: {fileID: 1730281279}
+  - component: {fileID: 1730281278}
+  m_Layer: 5
+  m_Name: NombrePersonajes
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1730281277
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730281276}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 403177085}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 16, y: 6.1}
+  m_SizeDelta: {x: 200, y: 50}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1730281278
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730281276}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_text: New Text
+  m_isRightToLeft: 0
+  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontSharedMaterials: []
+  m_fontMaterial: {fileID: 0}
+  m_fontMaterials: []
+  m_fontColor32:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+  m_enableVertexGradient: 0
+  m_colorMode: 3
+  m_fontColorGradient:
+    topLeft: {r: 1, g: 1, b: 1, a: 1}
+    topRight: {r: 1, g: 1, b: 1, a: 1}
+    bottomLeft: {r: 1, g: 1, b: 1, a: 1}
+    bottomRight: {r: 1, g: 1, b: 1, a: 1}
+  m_fontColorGradientPreset: {fileID: 0}
+  m_spriteAsset: {fileID: 0}
+  m_tintAllSprites: 0
+  m_StyleSheet: {fileID: 0}
+  m_TextStyleHashCode: -1183493901
+  m_overrideHtmlColors: 0
+  m_faceColor:
+    serializedVersion: 2
+    rgba: 4294967295
+  m_fontSize: 8
+  m_fontSizeBase: 8
+  m_fontWeight: 400
+  m_enableAutoSizing: 0
+  m_fontSizeMin: 18
+  m_fontSizeMax: 72
+  m_fontStyle: 0
+  m_HorizontalAlignment: 1
+  m_VerticalAlignment: 256
+  m_textAlignment: 65535
+  m_characterSpacing: 0
+  m_wordSpacing: 0
+  m_lineSpacing: 0
+  m_lineSpacingMax: 0
+  m_paragraphSpacing: 0
+  m_charWidthMaxAdj: 0
+  m_enableWordWrapping: 1
+  m_wordWrappingRatios: 0.4
+  m_overflowMode: 0
+  m_linkedTextComponent: {fileID: 0}
+  parentLinkedComponent: {fileID: 0}
+  m_enableKerning: 1
+  m_enableExtraPadding: 0
+  checkPaddingRequired: 0
+  m_isRichText: 1
+  m_parseCtrlCharacters: 1
+  m_isOrthographic: 1
+  m_isCullingEnabled: 0
+  m_horizontalMapping: 0
+  m_verticalMapping: 0
+  m_uvLineOffset: 0
+  m_geometrySortingOrder: 0
+  m_IsTextObjectScaleStatic: 0
+  m_VertexBufferAutoSizeReduction: 0
+  m_useMaxVisibleDescender: 1
+  m_pageToDisplay: 1
+  m_margin: {x: 0, y: 0, z: 126.46498, w: 38.54581}
+  m_isUsingLegacyAnimationComponent: 0
+  m_isVolumetricText: 0
+  m_hasFontAssetChanged: 0
+  m_baseMaterial: {fileID: 0}
+  m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
+--- !u!222 &1730281279
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1730281276}
+  m_CullTransparentMesh: 1
+--- !u!1 &1791418724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1791418725}
+  - component: {fileID: 1791418727}
+  - component: {fileID: 1791418726}
+  m_Layer: 5
+  m_Name: Personaje B
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &1791418725
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791418724}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_ConstrainProportionsScale: 1
+  m_Children: []
+  m_Father: {fileID: 704300132}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 494, y: 67}
+  m_SizeDelta: {x: 200, y: 200}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &1791418726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791418724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+  m_Type: 0
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
+--- !u!222 &1791418727
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1791418724}
+  m_CullTransparentMesh: 1
+--- !u!1 &1901307701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1901307703}
+  - component: {fileID: 1901307702}
+  m_Layer: 0
+  m_Name: Declinar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1901307702
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901307701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a81837a8504423b4aaad10f4ec3cc37f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dialogueLines:
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xA1Que no quiero tus piedras!"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "No son piedras, \xA1son cristales de energ\xEDa!"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "S\xED y yo soy un Eavea que va a evolucionar con una de esas piedras."
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xBFC\xF3mo osas comparar mis cristales de energ\xEDa con cosas
+      irreales de un juego?"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "A efectos pr\xE1cticos, es lo mismo."
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xA1Se acab\xF3! \xA1Presentadora!"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xBFPero que te pasa ahora? \xBFLos chakras se han manifestado?"
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xBFTe est\xE1s riendo de mi? \xA1Me quiero ir ya!"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: "\xC1lvaro"
+    dialogueText: "\xBFPor que no pruebas a ver que te dicen las cartas, eh? Ya que
+      son tan fiables."
+    characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
+    characterPosition: 0
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: (Morgana saca una carta del tarot de su baraja)
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: 
+  - characterName: Morgana
+    dialogueText: "\xA1Me voy, adi\xF3s!"
+    characterSprite: {fileID: 21300000, guid: 9856498661215c04aa4e9b526ffb9865, type: 3}
+    characterPosition: 1
+    voiceClip: {fileID: 0}
+    options: []
+    nextSceneName: Gameover
+--- !u!4 &1901307703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901307701}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1083.9077, y: 454.26437, z: 1.5177857}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 1369287834}
+  - {fileID: 623235365}
+  - {fileID: 49691426}
+  - {fileID: 704300132}
+  - {fileID: 414925737}
+  - {fileID: 480463934}
+  - {fileID: 833386057}
+  - {fileID: 776790996}
+  - {fileID: 1307437020}
+  - {fileID: 1138707455}
+  - {fileID: 1901307703}
