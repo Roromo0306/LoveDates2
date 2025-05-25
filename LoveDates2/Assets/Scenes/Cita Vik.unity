@@ -152,7 +152,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Normal si te pones a jugar con el m\xF3vil en una cita."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -166,7 +166,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "A ver, es de sentido com\xFAn que si vas a una cita es de mala
       educaci\xF3n ponerte con el m\xF3vil y auriculares."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
@@ -181,7 +181,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 9be7275c13ac7744b94363e4700295d6, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xBFEl qu\xE9?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -195,7 +195,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Pero \xBFpara qu\xE9 has venido aqu\xED? \xBFA jugar o tener una
       cita?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
@@ -210,7 +210,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Pues se ve lo que te interesa m\xE1s."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -271,7 +271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xBFQu\xE9 m\xE1s te gusta hacer adem\xE1s de jugar a Leafe of
       Legends?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
@@ -286,7 +286,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: Ah bien, buena diversidad de actividades.
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -300,7 +300,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 4ca95e32a62079e4085cd94773933ce0, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: " Y \xBFsueles hacer algo m\xE1s aparte de jugar?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -315,7 +315,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xBFEl juego tiene un modo de clasificaci\xF3n?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -332,7 +332,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Alvaro
+  - characterName: "\xC1lvaro"
     dialogueText: "Es un buen sue\xF1o, seguro que con pr\xE1ctica lo consigues."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -348,7 +348,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Y entonces, \xBFqu\xE9 haces aqu\xED?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -363,7 +363,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xBFY no era m\xE1s f\xE1cil no hacer la apuesta?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -377,7 +377,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Eso est\xE1 bien. Y bueno, pero lo de que solo juegas y ves v\xEDdeos
       no ser\xE1 del todo verdad, tambi\xE9n har\xE1s otras cosas \xBFno?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
@@ -575,7 +575,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xA1Hola! Soy Roberto, encantado."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -589,7 +589,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 6910c1e5f8b04d54b886acbea31f2f26, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: Si tienes un chat importante con alguien puedo volver luego.
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -603,7 +603,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Que te dec\xEDa que si ten\xEDas un chat importante con alguien
       que puedo volver luego."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
@@ -619,7 +619,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: Yo soy tu cita.
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -633,7 +633,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xBFNo? Si ni tengo el uniforme de camarero."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -647,7 +647,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "S\xED."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -662,7 +662,7 @@ MonoBehaviour:
     options:
     - optionText: Molesto
       nextDialogue: {fileID: 60775530}
-    - optionText: Dejarlo pasar
+    - optionText: Dejar pasar
       nextDialogue: {fileID: 2080453079}
     nextSceneName: 
 --- !u!4 &323316050
@@ -769,7 +769,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xBFT\xFA eres normal?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -784,7 +784,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xA1AAAAAA! \xA1\xBFEs que no sabes mantener una conversaci\xF3n
       normal?!\r\n"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
@@ -801,7 +801,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Habla la persona que no cuenta nada de su vida y que me ha recibido
       jugando y con los cascos puestos\u2026"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
@@ -817,7 +817,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xA1Pero cu\xE9ntame algo m\xE1s de tu vida!"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -832,7 +832,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xBFSabes hacer algo m\xE1s aparte de jugar videojuegos?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -846,10 +846,10 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: Per-
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 8300000, guid: b3584b4f01bd20a48a0308159d2b894f, type: 3}
     options: []
     nextSceneName: 
@@ -967,8 +967,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6
-  m_fontSizeBase: 6
+  m_fontSize: 5
+  m_fontSizeBase: 5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1445,7 +1445,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Pues deber\xEDas salir un poco para descansar."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -1459,7 +1459,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Yo digo m\xE1s, algo para desconectar de tanta pantalla."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -1474,7 +1474,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xBFY si planificas tus estrategias en un cuaderno? \xBFO te compras
       libros sobre el juego? Seguro que as\xED puedes aprender cosas nuevas."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
@@ -1489,7 +1489,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "(A Vik le gusta todo lo relacionado con Leafe of Legends y los
       videojuegos, deber\xEDa sacarle m\xE1s conversaci\xF3n sobre eso para gan\xE1rmelo).
       \r"
@@ -1686,7 +1686,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: Vamos que vas de pantalla en pantalla.
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -1700,7 +1700,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Ninguno, pero eso te va a sentar mal. M\xEDrame a m\xED, salgo
       por ah\xED, voy por el campo, hago de todo, quiz\xE1s te puedo ense\xF1ar c\xF3mo
       desconectar un poco."
@@ -1716,7 +1716,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xBFEso ha sido una pregunta?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -1732,7 +1732,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: Solo te doy consejos.
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -1746,7 +1746,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xBFQui\xE9n qu\xE9?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -1760,7 +1760,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: Eh...
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -2204,7 +2204,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "No te preocupes, yo tambi\xE9n vivo en la inopia "
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -2218,7 +2218,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: e199f529000ba054394d1585b3198580, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Me alegro entonces, \xBFC\xF3mo te llamas?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -2232,7 +2232,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Pero\u2026\xBFcu\xE1l es tu nombre real?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -2247,7 +2247,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: e199f529000ba054394d1585b3198580, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: Porque nos estamos conociendo y prefiero saber tu nombre real.
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -2261,7 +2261,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xBFQu\xE9?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -2276,7 +2276,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xBFPresentadora?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -2290,7 +2290,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xBFC\xF3mo lo sabes?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -2304,7 +2304,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Si no hay otra opci\xF3n\u2026Espera, \xBFc\xF3mo tien-"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -2318,7 +2318,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xBFTienes que estar t\xFA de intermediario?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -2333,7 +2333,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: Dile que quiero saber tu nombre.
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -2350,15 +2350,15 @@ MonoBehaviour:
   - characterName: Vik
     dialogueText: "Dice que se llama Mar\xEDa de las Rosas."
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Su nombre no, el tuyo. Ves esto pasa por estar de intermediario.
       Que me escuche desde aqu\xED y ya."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -2366,22 +2366,22 @@ MonoBehaviour:
     dialogueText: "No te oye pero te nota enfadado y se pregunta si tienes algo en
       contra de las Mar\xEDas."
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xA1\xBFQu\xE9?!  \xA1Quiero el nombre real de mi cita! (A ver
       si as\xED me escucha)"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
-    characterPosition: 1
+    characterPosition: 0
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
   - characterName: Vik
     dialogueText: "Prima, \xBFde verdad se lo tengo que decir?"
     characterSprite: {fileID: 21300000, guid: 679a2f30b85be8f46b2cc3c61027db60, type: 3}
-    characterPosition: 0
+    characterPosition: 1
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
@@ -2393,7 +2393,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: Mejor te llamo Vik.
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -2407,7 +2407,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Y bueno, \xBFqu\xE9 te gusta hacer?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -2421,7 +2421,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Y \xBFqu\xE9 m\xE1s?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0

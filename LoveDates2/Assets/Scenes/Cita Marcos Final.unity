@@ -1023,8 +1023,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6
-  m_fontSizeBase: 6
+  m_fontSize: 5
+  m_fontSizeBase: 5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -1200,7 +1200,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Gracias, yo tambi\xE9n me lo he pasado bien. \xBFQuieres que vayamos
       a una bodega donde sirven un vino excelente?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
@@ -1215,7 +1215,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: Yo creo que no.
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -1230,7 +1230,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "No, no, yo no he estudiado una carrera, \xBFte acuerdas?"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -1244,7 +1244,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 847ab301178fdcf429f4dd9e16989337, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Yo no he estado en Suiza. D\xE9jalo, v\xE1monos ya que se nos
       va a hacer tarde."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
@@ -1259,7 +1259,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: Pe-
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -1275,7 +1275,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "\xA1No, espera! (Se cae el bigote postizo)"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -1291,7 +1291,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: e608432cc273b4546a97da4f58375f6b, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Pe-pero, esc\xFAchame tengo mis motivos."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0

@@ -286,7 +286,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   dialogueLines:
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Pues me has ca\xEDdo muy bien."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -301,7 +301,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 6910c1e5f8b04d54b886acbea31f2f26, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: La verdad es que he aprendido muchas cosas hoy.
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -315,7 +315,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: " Jajaja. \xBFSabes? Yo era influencer."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -329,7 +329,7 @@ MonoBehaviour:
     voiceClip: {fileID: 0}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Que fracas\xE9. Pero podr\xEDa ayudarte en tu sue\xF1o de ser
       streamer."
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
@@ -344,7 +344,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 3d15e79cea24d7a4a852fe76b5b954d1, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Aprend\xED muchas cosas de mi \xE9poca de influencer sobre c\xF3mo
       atraer a la gente, realizar v\xEDdeos y directos\u2026"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
@@ -359,7 +359,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 8fa7e8bb209863146bf044be7762e1f3, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Podr\xEDa ense\xF1arte y as\xED podr\xE1s atraer a mucha gente
       a tus directos, eso s\xED, vas a tener que practicar en Leafe of Legends para
       ser de los mejores."
@@ -375,8 +375,8 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
-    dialogueText: Bien
+  - characterName: "\xC1lvaro"
+    dialogueText: Bien.
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
     voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
@@ -391,7 +391,7 @@ MonoBehaviour:
     voiceClip: {fileID: 8300000, guid: 689a347317c9bae4d99ea9a8fa04fb66, type: 3}
     options: []
     nextSceneName: 
-  - characterName: Roberto
+  - characterName: "\xC1lvaro"
     dialogueText: "Suena bien, \xA1vamos a planearlo!"
     characterSprite: {fileID: 21300000, guid: 5647a1a22fc9c1246b536ffc9149b76b, type: 3}
     characterPosition: 0
@@ -564,8 +564,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 6
-  m_fontSizeBase: 6
+  m_fontSize: 5
+  m_fontSizeBase: 5
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
